@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -35,4 +35,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center center;
+  position: relative;
+}
+
+.text-bright {
+  color: var(--text-bright);
+}
+
+* {
+  --text-bright: #06BEE1;
 }
