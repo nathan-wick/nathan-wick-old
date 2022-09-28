@@ -1,16 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.2da1a970.js",
+    "main.css": "/static/css/main.e8d9694a.css",
+    "main.js": "/static/js/main.3e01fa9e.js",
     "static/js/787.bccd46e3.chunk.js": "/static/js/787.bccd46e3.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/itsc-team.png": "/static/media/itsc-team.31a427d47cad9049f456.png",
+    "static/media/campus.jpeg": "/static/media/campus.22315e9eff9878fbdbaf.jpeg",
+    "static/media/cincinnati.jpeg": "/static/media/cincinnati.30baa5417e7a747110df.jpeg",
+    "static/media/profile-picture.png": "/static/media/profile-picture.231b8e191a58f9b912f2.png",
+    "static/media/thumbs-up.jpeg": "/static/media/thumbs-up.a9678770562516069efc.jpeg",
+    "static/media/marketing-savage.jpeg": "/static/media/marketing-savage.7cee16cc10e100dcf0e9.jpeg",
+    "static/media/jeff-sommer.png": "/static/media/jeff-sommer.1f26f6c69de505c7a030.png",
+    "static/media/testimonials.png": "/static/media/testimonials.f5ee2a239071120dee00.png",
+    "static/media/alexis-conner.png": "/static/media/alexis-conner.f6d8241249a705224036.png",
+    "static/media/abby-stroup.png": "/static/media/abby-stroup.370fb97ec2e75748e87e.png",
+    "static/media/jacob-macleod.png": "/static/media/jacob-macleod.5f2710d4736a5fade4ef.png",
+    "static/media/learn-more.png": "/static/media/learn-more.5905f788cb21ce3b23d3.png",
+    "static/media/anthony-folivi.png": "/static/media/anthony-folivi.a52dda77af8fd21b4d82.png",
+    "static/media/education.png": "/static/media/education.58a7325f916157c29d26.png",
+    "static/media/derrick-adkins.png": "/static/media/derrick-adkins.3fb5b5a9e4779c81be63.png",
+    "static/media/rating.png": "/static/media/rating.a39d564167dfe3965523.png",
+    "static/media/experience.png": "/static/media/experience.2e433b6115b21ae7db13.png",
+    "static/media/blake-schriewer.png": "/static/media/blake-schriewer.168a4dec2d7f0ce2c305.png",
+    "static/media/alexander-spurlock.png": "/static/media/alexander-spurlock.5eb6dfb8afb36d6629af.png",
+    "static/media/endless-constellation.svg": "/static/media/endless-constellation.b89bbd651b70a10f665ce054c90933e8.svg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.2da1a970.js.map": "/static/js/main.2da1a970.js.map",
+    "main.e8d9694a.css.map": "/static/css/main.e8d9694a.css.map",
+    "main.3e01fa9e.js.map": "/static/js/main.3e01fa9e.js.map",
     "787.bccd46e3.chunk.js.map": "/static/js/787.bccd46e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.2da1a970.js"
+    "static/css/main.e8d9694a.css",
+    "static/js/main.3e01fa9e.js"
   ]
 }
