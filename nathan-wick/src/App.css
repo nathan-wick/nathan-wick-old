@@ -43,6 +43,12 @@
   position: relative;
 }
 
+@media (hover: none) {
+  .parallax {
+      background-attachment: initial;
+  }
+}
+
 .text-bright {
   color: var(--text-bright);
 }
