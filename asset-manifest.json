@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e8d9694a.css",
+    "main.css": "/static/css/main.08b47e85.css",
     "main.js": "/static/js/main.72f37e59.js",
     "static/js/787.bccd46e3.chunk.js": "/static/js/787.bccd46e3.chunk.js",
     "static/media/itsc-team.png": "/static/media/itsc-team.31a427d47cad9049f456.png",
@@ -24,12 +24,12 @@
     "static/media/alexander-spurlock.png": "/static/media/alexander-spurlock.5eb6dfb8afb36d6629af.png",
     "static/media/endless-constellation.svg": "/static/media/endless-constellation.b89bbd651b70a10f665ce054c90933e8.svg",
     "index.html": "/index.html",
-    "main.e8d9694a.css.map": "/static/css/main.e8d9694a.css.map",
+    "main.08b47e85.css.map": "/static/css/main.08b47e85.css.map",
     "main.72f37e59.js.map": "/static/js/main.72f37e59.js.map",
     "787.bccd46e3.chunk.js.map": "/static/js/787.bccd46e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8d9694a.css",
+    "static/css/main.08b47e85.css",
     "static/js/main.72f37e59.js"
   ]
 }
