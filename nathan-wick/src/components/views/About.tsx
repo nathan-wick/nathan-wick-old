@@ -146,7 +146,7 @@ const About = () => {
                 icon={TestimonialsIcon}
                 title='Testimonials' />
             <div
-                className='p-5 bg-light text-white parallax'
+                className='parallax'
                 style={{
                     backgroundImage: `url(${TestimonialsBackground})`,
                     backgroundSize: 'cover'}}>
@@ -203,7 +203,7 @@ const About = () => {
                                 text='"It was very enjoyable to work with Nathan on our Android app project. He organized, and attended of course, all of the meetings. Additionally, he reached out to others if he saw them struggle by giving unique perspectives and just a helping hand. Nathan is a good teammate to have and I look forward to working with him some, if such a time arises."' />
                         </div>
                         <div
-                            className='col text-center'>
+                            className='col p-3 text-center'>
                             <Button
                                 variant="dark"
                                 onClick={() => setDisplayAllTestimonials(false)}>
@@ -214,7 +214,7 @@ const About = () => {
                     <div 
                         className='row'>
                             <div
-                                className='col text-center'>
+                                className='col p-3 text-center'>
                                 <Button
                                     variant="dark"
                                     onClick={() => setDisplayAllTestimonials(true)}>

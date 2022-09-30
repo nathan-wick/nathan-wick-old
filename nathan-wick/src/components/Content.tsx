@@ -3,7 +3,7 @@ const Content = (props: any) => {
 
     return (
         <div
-            className='p-5 bg-dark text-white parallax'
+            className='p-4 bg-dark text-white parallax'
             style={{
                 backgroundImage: props.background ? `url(${props.background})` : `none`,
                 backgroundSize: 'cover'}}>

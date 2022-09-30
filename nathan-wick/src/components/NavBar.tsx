@@ -6,7 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 const NavBar = () =>
     <Navbar bg="dark" expand="lg" variant='dark' sticky='top'>
         <Container>
-            <Navbar.Brand href="/about" className='text-cyan-500'>Nathan Wick</Navbar.Brand>
+            <Navbar.Brand href="/" className='text-cyan-500'>Nathan Wick</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
