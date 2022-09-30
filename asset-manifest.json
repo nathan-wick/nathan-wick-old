@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.08b47e85.css",
-    "main.js": "/static/js/main.e86a21fb.js",
+    "main.js": "/static/js/main.ae65dc2d.js",
     "static/js/787.bccd46e3.chunk.js": "/static/js/787.bccd46e3.chunk.js",
     "static/media/itsc-team.png": "/static/media/itsc-team.31a427d47cad9049f456.png",
     "static/media/campus.jpeg": "/static/media/campus.22315e9eff9878fbdbaf.jpeg",
@@ -25,11 +25,11 @@
     "static/media/endless-constellation.svg": "/static/media/endless-constellation.b89bbd651b70a10f665ce054c90933e8.svg",
     "index.html": "/index.html",
     "main.08b47e85.css.map": "/static/css/main.08b47e85.css.map",
-    "main.e86a21fb.js.map": "/static/js/main.e86a21fb.js.map",
+    "main.ae65dc2d.js.map": "/static/js/main.ae65dc2d.js.map",
     "787.bccd46e3.chunk.js.map": "/static/js/787.bccd46e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08b47e85.css",
-    "static/js/main.e86a21fb.js"
+    "static/js/main.ae65dc2d.js"
   ]
 }
