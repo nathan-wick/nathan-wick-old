@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Button } from 'react-bootstrap';
+import { Button, Col, Row } from 'react-bootstrap';
 import Header from '../Header';
 import Content from '../Content';
 import Testimonial from '../Testimonial';
@@ -27,17 +27,17 @@ const WelcomeContent = () => {
     return (
         <>
             <p>
-                Hello, my name is Nathan and I'm <span className='text-bright'>passionate</span> about helping businesses by
+                Hello, my name is Nathan and I'm passionate about helping businesses by
             </p>
             <ul>
                 <li>
-                    <span className='text-bright'>Building</span> high-quality Web, iOS, and Android applications
+                    Building high-quality Web, iOS, and Android applications
                 </li>
                 <li>
-                    Testing and <span className='text-bright'>improving</span> code for functionality, efficiency, and user experience
+                    Testing and improving code for functionality, efficiency, and user experience
                 </li>
                 <li>
-                    Quickly <span className='text-bright'>learning</span> new technologies and <span className='text-bright'>solving</span> complex problems
+                    Quickly learning new technologies and solving complex problems
                 </li>
             </ul>
         </>
@@ -48,7 +48,7 @@ const UniversityOfCincinnatiContent = () => {
     return (
         <>
             <p>
-                According to the Niche report, the University of Cincinnati is the overall <span className='text-bright'>best</span> college location in Ohio.
+                According to the Niche report, the University of Cincinnati is the overall best college location in Ohio.
             </p>
             <hr />
             <p>
@@ -56,13 +56,13 @@ const UniversityOfCincinnatiContent = () => {
             </p>
             <ul>
                 <li>
-                    Degree: <span className='text-bright'>Bachelors of Science</span>
+                    Degree: Bachelors of Science
                 </li>
                 <li>
-                    Major: <span className='text-bright'>Software Development</span>
+                    Major: Software Development
                 </li>
                 <li>
-                    Grade Point Average (GPA): <span className='text-bright'>4.0</span>
+                    Grade Point Average (GPA): 4.0
                 </li>
             </ul>
         </>
@@ -73,7 +73,7 @@ const UCITSCContent = () => {
     return (
         <>
             <p>
-                The University of Cincinnati Information Technology Solutions Center (ITSC) <span className='text-bright'>develops</span> web applications, mobile applications, and databases to <span className='text-bright'>serve</span> government agencies, start-up companies, and research centers.
+                The University of Cincinnati Information Technology Solutions Center (ITSC) develops web applications, mobile applications, and databases to serve government agencies, start-up companies, and research centers.
             </p>
         </>
     );
@@ -83,7 +83,7 @@ const MarketingSavageContent = () => {
     return (
         <>
             <p>
-                Marketing Savage is a marketing agency that <span className='text-bright'>designs</span> digital advertisements, websites, and customer relationship management (CRM) systems to bring businesses to the <span className='text-bright'>next level</span>. Marketing Savage has been featured in Forbes, Thrive Global, and ABC News.
+                Marketing Savage is a marketing agency that designs digital advertisements, websites, and customer relationship management (CRM) systems to bring businesses to the next level. Marketing Savage has been featured in Forbes, Thrive Global, and ABC News.
             </p>
             <hr />
             <p>
@@ -91,13 +91,13 @@ const MarketingSavageContent = () => {
             </p>
             <ul>
                 <li>
-                    Created solutions to <span className='text-bright'>help</span> teammates and clients complete projects
+                    Created solutions to help teammates and clients complete projects
                 </li>
                 <li>
-                    Monitored progress of hundreds of projects to <span className='text-bright'>ensure</span> client’s needs were being met
+                    Monitored progress of hundreds of projects to ensure client’s needs were being met
                 </li>
                 <li>
-                    Designed dozens of business processes to <span className='text-bright'>automate</span> repetitive tasks, train new hires, and lower average project turnaround time by <span className='text-bright'>50%</span>
+                    Designed dozens of business processes to automate repetitive tasks, train new hires, and lower average project turnaround time by 50%
                 </li>
             </ul>
         </>
@@ -150,8 +150,7 @@ const About = () => {
                 style={{
                     backgroundImage: `url(${TestimonialsBackground})`,
                     backgroundSize: 'cover'}}>
-                <div
-                    className='row'>
+                <Row>
                     <Testimonial
                         image={AbbyStroupImage}
                         name='Abby Stroup'
@@ -167,12 +166,11 @@ const About = () => {
                         name='Derrick Adkins'
                         relation='Colleague'
                         text='"I worked with Nathan on a final project in a Web Development course at UC, in which he was an essential part of the group. He facilitated the development of the plan to execute and the delegation of tasks to team members as well as contributing a generous amount to the repository. Nathan is a strong programmer with good communication skills and I would be happy to collaborate with him again."' />
-                </div>
+                </Row>
                 {
                     displayAllTestimonials ?
                     <>
-                        <div
-                            className='row'>
+                        <Row>
                             <Testimonial
                                 image={JeffSommerImage}
                                 name='Jeff Sommer'
@@ -183,9 +181,8 @@ const About = () => {
                                 name='Jacob Macleod'
                                 relation='Colleague'
                                 text='"I got to know Nathan through developing the website project called "Games Galore" during the Spring Semester of 2022 at the University of Cincinnati. The website was built with the ASP.NET framework and connects to a database of video games for the data that is used on the website. He excelled at working on the frontend of the website, as well as the backend, to help create a website that looks great and functions well. He always attended meetings and responded quickly to messages concerning the project. He also has a great attitude for collaborating with others and discussing the development of the project in meetings. Some of the specific skills he used on the project includes the use of the programming languages C#, HTML, and CSS. From my experience with him, I can say that he would be a great person to collaborate with and someone who can contribute very much to a project."' />
-                        </div>
-                        <div
-                            className='row'>
+                        </Row>
+                        <Row>
                             <Testimonial
                                 image={AnthonyFoliviImage}
                                 name='Anthony Folivi'
@@ -201,27 +198,26 @@ const About = () => {
                                 name='Alexander Spurlock'
                                 relation='Colleague'
                                 text='"It was very enjoyable to work with Nathan on our Android app project. He organized, and attended of course, all of the meetings. Additionally, he reached out to others if he saw them struggle by giving unique perspectives and just a helping hand. Nathan is a good teammate to have and I look forward to working with him some, if such a time arises."' />
-                        </div>
-                        <div
-                            className='col p-3 text-center'>
+                        </Row>
+                        <Col
+                            className='p-3 text-center'>
                             <Button
                                 variant="dark"
                                 onClick={() => setDisplayAllTestimonials(false)}>
                                 View Less Testimonials
                             </Button>
-                        </div>
+                        </Col>
                     </> :
-                    <div 
-                        className='row'>
-                            <div
-                                className='col p-3 text-center'>
+                    <Row>
+                            <Col
+                                className='p-3 text-center'>
                                 <Button
                                     variant="dark"
                                     onClick={() => setDisplayAllTestimonials(true)}>
                                     View More Testimonials
                                 </Button>
-                            </div>
-                    </div>
+                            </Col>
+                    </Row>
                 }
                 
             </div>

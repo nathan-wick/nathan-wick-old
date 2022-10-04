@@ -1,9 +1,11 @@
+import { Col } from 'react-bootstrap';
 import RatingIcon from '../assets/icons/rating.png'
 
 const Testimonial = (props: any) => {
     return (
-        <div
-            className='col-sm p-4 text-center text-white'>
+        <Col
+            md
+            className='p-4 text-center text-white'>
             <div
                 className='p-3 bg-dark'>
                 {
@@ -47,7 +49,7 @@ const Testimonial = (props: any) => {
                         </p> : <></>
                 }
             </div>
-        </div>
+        </Col>
     );
 };
 

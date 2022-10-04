@@ -1,3 +1,5 @@
+import { Col, Row } from "react-bootstrap";
+
 const Content = (props: any) => {
     const alignments = ['left', 'center', 'right'];
 
@@ -7,14 +9,15 @@ const Content = (props: any) => {
             style={{
                 backgroundImage: props.background ? `url(${props.background})` : `none`,
                 backgroundSize: 'cover'}}>
-            <div
-                className='row'>
+            <Row>
                 {
                     alignments.map((alignment, index) =>
                         props.alignment === alignment ?
-                            <div
+                            <Col
                                 key={index}
-                                className='col-sm bg-dark'>
+                                lg={4}
+                                md={6}
+                                className='bg-dark'>
                                 {
                                     props.title ?
                                         <h1
@@ -38,10 +41,10 @@ const Content = (props: any) => {
                                             {props.content}
                                         </div> : <></>
                                 }
-                            </div> : <div key={index} className='col-sm'></div>
+                            </Col> : <Col key={index}></Col>
                     )
                 }
-            </div>
+            </Row>
         </div>
     );
 };
