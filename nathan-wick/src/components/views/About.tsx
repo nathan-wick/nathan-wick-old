@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Button, Col, Row } from 'react-bootstrap';
+import { Helmet } from 'react-helmet';
 import Header from '../Header';
 import Content from '../Content';
 import Testimonial from '../Testimonial';
@@ -107,7 +108,12 @@ const MarketingSavageContent = () => {
 const About = () => {
     const [ displayAllTestimonials, setDisplayAllTestimonials ] = useState(false);
     return (
-        <div>
+        <>
+            <Helmet>‍
+                <title>About Nathan Wick</title>
+                <meta name='description' content='My name is Nathan Wick and I am a Software Developer specializing in Web, iOS, and Android application development. This website displays my story and how I can help your business.' />
+                <meta name='robots' content='index, follow' />
+            </Helmet>
             <Header
                 icon={HeaderIcon}
                 title='Nathan Wick'
@@ -224,7 +230,7 @@ const About = () => {
             <Header
                 icon={LearnMoreIcon}
                 title='Learn More' />
-        </div>
+        </>
     );
 };
 
