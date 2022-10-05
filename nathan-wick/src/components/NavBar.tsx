@@ -11,7 +11,7 @@ const NavBar = () =>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
                 <Nav.Link href="/about">About</Nav.Link>
-                <Nav.Link href="https://www.linkedin.com/in/nathanwick/recent-activity/posts/">Blogs</Nav.Link>
+                <Nav.Link href="/blogs">Blogs</Nav.Link>
                 <Nav.Link href="https://www.linkedin.com/in/nathanwick/details/projects/">Projects</Nav.Link>
                 <NavDropdown title="Socials" id="basic-nav-dropdown">
                     <NavDropdown.Item href="https://www.linkedin.com/in/nathanwick/">LinkedIn</NavDropdown.Item>

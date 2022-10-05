@@ -8,7 +8,6 @@ import HeaderIcon from '../../assets/images/profile-picture.png';
 import EducationIcon from '../../assets/icons/education.png';
 import ExperienceIcon from '../../assets/icons/experience.png';
 import TestimonialsIcon from '../../assets/icons/testimonials.png';
-import LearnMoreIcon from '../../assets/icons/learn-more.png';
 import WelcomeBackground from '../../assets/images/cincinnati.jpeg';
 import UniversityOfCincinnatiBackground from '../../assets/images/campus.jpeg';
 import UCITSCBackground from '../../assets/images/itsc-team.png';
@@ -227,9 +226,6 @@ const About = () => {
                 }
                 
             </div>
-            <Header
-                icon={LearnMoreIcon}
-                title='Learn More' />
         </>
     );
 };
