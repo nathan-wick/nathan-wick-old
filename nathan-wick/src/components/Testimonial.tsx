@@ -1,10 +1,12 @@
 import { Col } from 'react-bootstrap';
-import RatingIcon from '../assets/icons/rating.png'
+import RatingIcon from '../assets/icons/rating.webp'
 
 const Testimonial = (props: any) => {
     return (
         <Col
-            md
+            lg={4}
+            md={6}
+            sm={1}
             className='p-4 text-center text-white'>
             <div
                 className='p-3 bg-dark'>

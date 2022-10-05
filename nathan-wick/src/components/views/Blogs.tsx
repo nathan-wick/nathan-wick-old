@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet';
 import Header from '../Header';
-import HeaderIcon from '../../assets/images/profile-picture.png';
+import HeaderIcon from '../../assets/images/profile-picture.webp';
 
 const Blogs = () => {
     return (
