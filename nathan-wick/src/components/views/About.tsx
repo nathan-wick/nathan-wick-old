@@ -73,6 +73,21 @@ const UCITSCContent = () => {
             <p>
                 The University of Cincinnati Information Technology Solutions Center (ITSC) develops web applications, mobile applications, and databases to serve government agencies, start-up companies, and research centers.
             </p>
+            <hr />
+            <p>
+                While working with the University of Cincinnati ITSC, I
+            </p>
+            <ul>
+                <li>
+                    Developed expertise with React, TypeScript, and Bootstrap to create responsive, user-friendly, and accessible web applications
+                </li>
+                <li>
+                    Designed PostgreSQL databases and united them with web applications to efficiently collect, organize, and retrieve information
+                </li>
+                <li>
+                    Worked closely with an agile team of over 20 members to provide end-to-end solutions for clients
+                </li>
+            </ul>
         </>
     );
 };
@@ -81,7 +96,7 @@ const MarketingSavageContent = () => {
     return (
         <>
             <p>
-                Marketing Savage is a marketing agency that designs digital advertisements, websites, and customer relationship management (CRM) systems to bring businesses to the next level. Marketing Savage has been featured in Forbes, Thrive Global, and ABC News.
+                Marketing Savage is a marketing agency that designs digital advertisements, websites, and customer relationship management (CRM) systems to serve a variety of businesses. Marketing Savage has been featured in Forbes, Thrive Global, and ABC News.
             </p>
             <hr />
             <p>
@@ -189,7 +204,6 @@ const About = () => {
                 title='University of Cincinnati Information Technology Solutions Center'
                 subtitle='Software Developer, August 2022 - Present'
                 content={<UCITSCContent />} />
-            <Header />
             <Content
                 alignment='right'
                 background={MarketingSavageBackground}
