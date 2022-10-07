@@ -1,13 +1,21 @@
+import { useEffect, useState } from "react";
 import { Col, Row } from "react-bootstrap";
 
 const Content = (props: any) => {
+    const [viewWidth, setViewWidth] = useState(window.innerWidth);
+    const viewWidthMobileBreakpoint = 768;
+
+    useEffect(() => {
+        window.addEventListener("resize", () => setViewWidth(window.innerWidth));
+    }, []);
+
     const alignments = ['left', 'center', 'right'];
 
     return (
         <div
-            className='p-4 bg-dark text-white parallax'
+            className={`${viewWidth >= viewWidthMobileBreakpoint && `parallax p-4`} bg-dark text-white`}
             style={{
-                backgroundImage: props.background ? `url(${props.background})` : `none`,
+                backgroundImage: props.background && viewWidth >= viewWidthMobileBreakpoint ? `url(${props.background})` : `none`,
                 backgroundSize: 'cover'}}>
             <Row>
                 {
@@ -19,6 +27,14 @@ const Content = (props: any) => {
                                 md={6}
                                 className='bg-dark'>
                                 {
+                                    viewWidth < viewWidthMobileBreakpoint && props.background ?
+                                        <img
+                                            className='w-100'
+                                            src={props.background}
+                                            alt={props.title}>
+                                        </img> : <></>
+                                }
+                                {
                                     props.title ?
                                         <h1
                                             className='m-3'>
@@ -28,7 +44,7 @@ const Content = (props: any) => {
                                 {
                                     props.subtitle ?
                                         <p
-                                            className='m-3 text-muted'>
+                                            className='m-3 text-bright'>
                                             {props.subtitle}
                                         </p> : <></>
                                 }

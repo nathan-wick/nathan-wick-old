@@ -1,12 +1,20 @@
+import { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
 import Testimonial from '../Testimonial';
 
 const Testimonials = (props: any) => {
+    const [viewWidth, setViewWidth] = useState(window.innerWidth);
+    const viewWidthMobileBreakpoint = 768;
+
+    useEffect(() => {
+        window.addEventListener("resize", () => setViewWidth(window.innerWidth));
+    }, []);
+
     return (
         <div
-            className='parallax'
+            className={`${viewWidth >= viewWidthMobileBreakpoint && `parallax`} bg-dark`}
             style={{
-                backgroundImage: props.background ? `url(${props.background})` : `none`,
+                backgroundImage: props.background && viewWidth >= viewWidthMobileBreakpoint ? `url(${props.background})` : `none`,
                 backgroundSize: 'cover'
             }}>
             <Row>
