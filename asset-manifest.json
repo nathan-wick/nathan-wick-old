@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.08b47e85.css",
-    "main.js": "/static/js/main.29b3750d.js",
+    "main.js": "/static/js/main.ebf88ee6.js",
     "static/js/787.bccd46e3.chunk.js": "/static/js/787.bccd46e3.chunk.js",
     "static/media/campus.webp": "/static/media/campus.91b7dfb06be94d38972e.webp",
     "static/media/cincinnati.webp": "/static/media/cincinnati.af3f92a2e390ae18665b.webp",
@@ -24,11 +24,11 @@
     "static/media/alexander-spurlock.webp": "/static/media/alexander-spurlock.067bbd51f18ff15c6180.webp",
     "index.html": "/index.html",
     "main.08b47e85.css.map": "/static/css/main.08b47e85.css.map",
-    "main.29b3750d.js.map": "/static/js/main.29b3750d.js.map",
+    "main.ebf88ee6.js.map": "/static/js/main.ebf88ee6.js.map",
     "787.bccd46e3.chunk.js.map": "/static/js/787.bccd46e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08b47e85.css",
-    "static/js/main.29b3750d.js"
+    "static/js/main.ebf88ee6.js"
   ]
 }
