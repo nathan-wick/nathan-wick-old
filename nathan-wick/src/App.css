@@ -43,11 +43,6 @@
   background-position: center center;
   position: relative;
 }
-@media (hover: none) {
-  .parallax {
-      background-attachment: initial;
-  }
-}
 
 /* Custom Colors */
 .text-bright {
