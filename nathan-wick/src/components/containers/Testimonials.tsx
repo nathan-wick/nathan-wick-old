@@ -17,7 +17,8 @@ const Testimonials = (props: any) => {
                 backgroundImage: props.background && viewWidth >= viewWidthMobileBreakpoint ? `url(${props.background})` : `none`,
                 backgroundSize: 'cover'
             }}>
-            <Row>
+            <Row
+                className='m-0'>
                 {
                     props.testimonials.map((testimonial: { image: any; name: any; relation: any; text: any; }, index: any) =>
                         <Testimonial

@@ -17,7 +17,8 @@ const Content = (props: any) => {
             style={{
                 backgroundImage: props.background && viewWidth >= viewWidthMobileBreakpoint ? `url(${props.background})` : `none`,
                 backgroundSize: 'cover'}}>
-            <Row>
+            <Row
+                className="m-0">
                 {
                     alignments.map((alignment, index) =>
                         props.alignment === alignment ?

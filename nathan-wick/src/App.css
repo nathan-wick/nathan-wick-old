@@ -37,18 +37,19 @@
   }
 }
 
+/* Parallax Background */
 .parallax {
   background-attachment: fixed;
   background-position: center center;
   position: relative;
 }
-
 @media (hover: none) {
   .parallax {
       background-attachment: initial;
   }
 }
 
+/* Custom Colors */
 .text-bright {
   color: var(--text-bright);
 }
@@ -56,3 +57,8 @@
 * {
   --text-bright: #06BEE1;
 }
+
+/* View Outlines (used for debugging only)
+* {
+  outline: solid 1px red;
+}*/
