@@ -2,6 +2,14 @@ import { Helmet } from 'react-helmet';
 import Header from '../Header';
 import HeaderIcon from '../../assets/images/profile-picture.webp';
 
+const blogs = [
+    {
+        image: threeTraitsEveryGoodProgrammerHasImage,
+        title: '3 Traits Every Good Programmer Has',
+        text: 'There are a few personality traits that all good programmers have in common. First, good programmers are...',
+    },
+]
+
 const Blogs = () => {
     return (
         <>
