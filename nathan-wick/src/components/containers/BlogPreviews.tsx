@@ -20,12 +20,13 @@ const BlogPreviews = (props: any) => {
             <Row
                 className='m-0'>
                 {
-                    props.blogPreviews.map((blogPreview: { image: any; name: any; relation: any; text: any; }, index: any) =>
+                    props.blogPreviews.map((blogPreview: { image: any; title: any; text: any; link: any; }, index: any) =>
                         <BlogPreview
                             key={index}
                             image={blogPreview.image}
-                            title={blogPreview.name}
-                            text={blogPreview.text} />
+                            title={blogPreview.title}
+                            text={blogPreview.text}
+                            link={blogPreview.link} />
                     )
                 }
             </Row>

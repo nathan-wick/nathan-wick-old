@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet';
 import Header from '../Header';
 import Content from '../Content';
+import Testimonials from '../containers/Testimonials';
 import HeaderIcon from '../../assets/images/profile-picture.webp';
 import EducationIcon from '../../assets/icons/education.webp';
 import ExperienceIcon from '../../assets/icons/experience.webp';
@@ -18,8 +19,6 @@ import AlexisConnerImage from '../../assets/images/alexis-conner.webp';
 import AlexanderSpurlockImage from '../../assets/images/alexander-spurlock.webp';
 import JacobMacleodImage from '../../assets/images/jacob-macleod.webp';
 import JeffSommerImage from '../../assets/images/jeff-sommer.webp';
-import Testimonials from '../containers/Testimonials';
-
 
 const WelcomeContent = () => {
     return (
@@ -60,7 +59,7 @@ const UniversityOfCincinnatiContent = () => {
                     Major: Software Development
                 </li>
                 <li>
-                    Grade Point Average: 4.0
+                    GPA: 4.0
                 </li>
             </ul>
         </>

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Col } from 'react-bootstrap';
+import { Button, Col } from 'react-bootstrap';
 
 const BlogPreview = (props: any) => {
     const [viewWidth, setViewWidth] = useState(window.innerWidth);
@@ -15,7 +15,7 @@ const BlogPreview = (props: any) => {
             md={6}
             className={`${viewWidth >= viewWidthMobileBreakpoint && `p-4`} text-center text-white`}>
             <div
-                className='p-3 bg-dark'>
+                className='bg-dark'>
                 {
                     props.image ?
                         <img
@@ -26,7 +26,8 @@ const BlogPreview = (props: any) => {
                 }
                 {
                     props.title ?
-                        <h1>
+                        <h1
+                            className='p-3'>
                             {props.title}
                         </h1> : <></>
                 }
@@ -35,6 +36,15 @@ const BlogPreview = (props: any) => {
                         <p>
                             {props.text}
                         </p> : <></>
+                }
+                {
+                    props.link ?
+                        <Button
+                            variant='info'
+                            href={props.link}
+                            className='mb-3'>
+                            Read More
+                        </Button> : <></>
                 }
             </div>
         </Col>
