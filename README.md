@@ -8,4 +8,7 @@
 
 ## All Images Must Be In WebP Format
 Images in WebP format often provide better compression than PNG or JPEG, which means faster downloads and less data consumption.
-WebP Converter: https://cloudconvert.com/webp-converter
+
+Free WebP Tools
+Converter: https://cloudconvert.com/webp-converter
+Cropper: https://www.resizepixel.com/
