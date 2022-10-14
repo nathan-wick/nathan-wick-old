@@ -1,3 +1,4 @@
 https://nathanwick.com/
 https://nathanwick.com/?/about
 https://nathanwick.com/?/blog
+https://nathanwick.com/?/blog/three-traits-every-good-programmer-has

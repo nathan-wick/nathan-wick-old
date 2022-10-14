@@ -172,7 +172,7 @@ const About = () => {
     return (
         <>
             <Helmet>‍
-                <title>Nathan Wick - About</title>
+                <title>About Nathan Wick</title>
                 <meta name='description' content='My name is Nathan Wick and I am a Software Developer specializing in Web, iOS, and Android application development. This website displays my story and how I can help your business.' />
                 <meta name='robots' content='index, follow' />
             </Helmet>

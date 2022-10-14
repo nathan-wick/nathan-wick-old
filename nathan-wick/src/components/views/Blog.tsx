@@ -31,7 +31,7 @@ const Blog = () => {
     return (
         <>
             <Helmet>‍
-                <title>Nathan Wick - Blog</title>
+                <title>Nathan Wick's Blog</title>
                 <meta name='description' content='Learn Software Development with Nathan Wick.' />
                 <meta name='robots' content='index, follow' />
             </Helmet>
