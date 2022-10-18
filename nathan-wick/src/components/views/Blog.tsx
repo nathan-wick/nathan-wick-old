@@ -27,7 +27,7 @@ const blogPreviews = [
     },
 ]
 
-const Blog = () => {
+const Blog = (props: any) => {
     return (
         <>
             <Helmet>‍

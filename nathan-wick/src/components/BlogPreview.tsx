@@ -1,19 +1,12 @@
-import { useEffect, useState } from 'react';
 import { Button, Col } from 'react-bootstrap';
 
 const BlogPreview = (props: any) => {
-    const [viewWidth, setViewWidth] = useState(window.innerWidth);
-    const viewWidthMobileBreakpoint = 768;
-
-    useEffect(() => {
-        window.addEventListener("resize", () => setViewWidth(window.innerWidth));
-    }, []);
 
     return (
         <Col
             lg={4}
             md={6}
-            className={`${viewWidth >= viewWidthMobileBreakpoint && `p-4`} text-center text-white`}>
+            className={`${!props.isMobile && `p-4`} text-center text-white`}>
             <div
                 className='bg-dark'>
                 {

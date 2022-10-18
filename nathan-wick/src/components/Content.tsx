@@ -1,21 +1,14 @@
-import { useEffect, useState } from "react";
 import { Col, Row } from "react-bootstrap";
 
 const Content = (props: any) => {
-    const [viewWidth, setViewWidth] = useState(window.innerWidth);
-    const viewWidthMobileBreakpoint = 768;
-
-    useEffect(() => {
-        window.addEventListener("resize", () => setViewWidth(window.innerWidth));
-    }, []);
 
     const alignments = ['left', 'center', 'right'];
 
     return (
         <div
-            className={`${viewWidth >= viewWidthMobileBreakpoint && `parallax p-4`} bg-dark text-white`}
+            className={`${!props.isMobile && `parallax p-4`} bg-dark text-white`}
             style={{
-                backgroundImage: props.background && viewWidth >= viewWidthMobileBreakpoint ? `url(${props.background})` : `none`,
+                backgroundImage: props.background && !props.isMobile ? `url(${props.background})` : `none`,
                 backgroundSize: 'cover'}}>
             <Row
                 className="m-0">
@@ -28,7 +21,7 @@ const Content = (props: any) => {
                                 md={6}
                                 className='bg-dark'>
                                 {
-                                    viewWidth < viewWidthMobileBreakpoint && props.background ?
+                                    props.isMobile && props.background ?
                                         <img
                                             className='w-100'
                                             src={props.background}

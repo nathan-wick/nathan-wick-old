@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
@@ -7,22 +8,38 @@ import Footer from './components/Footer';
 import ThreeTraitsEveryGoodProgrammerHas from './components/views/blogs/ThreeTraitsEveryGoodProgrammerHas';
 
 function App() {
+  const [viewWidth, setViewWidth] = useState(window.innerWidth);
+  const [isMobile, setIsMobile] = useState(Boolean);
+  const viewWidthMobileBreakpoint = 768;
+
+  useEffect(() => {
+      window.addEventListener("resize", () => setViewWidth(window.innerWidth));
+  }, []);
+
+  useEffect(() => {
+    if (viewWidth >= viewWidthMobileBreakpoint) {
+      setIsMobile(false);
+    } else {
+      setIsMobile(true);
+    }
+  }, [ viewWidth ])
+
   return (
     <Router>
       <NavBar />
       <Routes>
         <Route
           path='/'
-          element={<About />} />
+          element={<About isMobile={isMobile} />} />
         <Route
           path='/about'
-          element={<About />} />
+          element={<About isMobile={isMobile} />} />
         <Route
           path='/blog'
-          element={<Blog />} />
+          element={<Blog isMobile={isMobile} />} />
         <Route
           path='/blog/three-traits-every-good-programmer-has'
-          element={<ThreeTraitsEveryGoodProgrammerHas />} />
+          element={<ThreeTraitsEveryGoodProgrammerHas isMobile={isMobile} />} />
       </Routes>
       <Footer />
     </Router>

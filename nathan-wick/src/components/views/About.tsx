@@ -19,6 +19,7 @@ import AlexisConnerImage from '../../assets/images/alexis-conner.webp';
 import AlexanderSpurlockImage from '../../assets/images/alexander-spurlock.webp';
 import JacobMacleodImage from '../../assets/images/jacob-macleod.webp';
 import JeffSommerImage from '../../assets/images/jeff-sommer.webp';
+import { propTypes } from 'react-bootstrap/esm/Image';
 
 const WelcomeContent = () => {
     return (
@@ -168,7 +169,7 @@ const testimonials = [
     },
 ];
 
-const About = () => {
+const About = (props: any) => {
     return (
         <>
             <Helmet>‍
@@ -181,6 +182,7 @@ const About = () => {
                 title='Nathan Wick'
                 subtitle='Software Developer' />
             <Content
+                isMobile={props.isMobile}
                 alignment='left'
                 background={WelcomeBackground}
                 title='Welcome'
@@ -189,6 +191,7 @@ const About = () => {
                 icon={EducationIcon}
                 title='Education' />
             <Content
+                isMobile={props.isMobile}
                 alignment='right'
                 background={UniversityOfCincinnatiBackground}
                 title='University of Cincinnati'
@@ -198,12 +201,14 @@ const About = () => {
                 icon={ExperienceIcon}
                 title='Experience' />
             <Content
+                isMobile={props.isMobile}
                 alignment='left'
                 background={UCITSCBackground}
                 title='University of Cincinnati Information Technology Solutions Center'
                 subtitle='Software Developer, August 2022 - Present'
                 content={<UCITSCContent />} />
             <Content
+                isMobile={props.isMobile}
                 alignment='right'
                 background={MarketingSavageBackground}
                 title='Marketing Savage'
@@ -213,6 +218,7 @@ const About = () => {
                 icon={TestimonialsIcon}
                 title='Testimonials' />
             <Testimonials
+                isMobile={props.isMobile}
                 background={TestimonialsBackground}
                 testimonials={testimonials} />
         </>

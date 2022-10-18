@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet';
 import Header from '../../Header';
 import Text from '../../Text';
 
-const ThreeTraitsEveryGoodProgrammerHas = () => {
+const ThreeTraitsEveryGoodProgrammerHas = (props: any) => {
     return (
         <>
             <Helmet>‍

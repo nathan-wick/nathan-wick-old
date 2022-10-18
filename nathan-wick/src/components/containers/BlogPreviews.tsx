@@ -1,20 +1,12 @@
-import { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
 import BlogPreview from '../BlogPreview';
 
 const BlogPreviews = (props: any) => {
-    const [viewWidth, setViewWidth] = useState(window.innerWidth);
-    const viewWidthMobileBreakpoint = 768;
-
-    useEffect(() => {
-        window.addEventListener("resize", () => setViewWidth(window.innerWidth));
-    }, []);
-
     return (
         <div
-            className={`${viewWidth >= viewWidthMobileBreakpoint && `parallax`} bg-dark`}
+            className={`${!props.isMobile && `parallax`} bg-dark`}
             style={{
-                backgroundImage: props.background && viewWidth >= viewWidthMobileBreakpoint ? `url(${props.background})` : `none`,
+                backgroundImage: props.background && !props.isMobile ? `url(${props.background})` : `none`,
                 backgroundSize: 'cover'
             }}>
             <Row

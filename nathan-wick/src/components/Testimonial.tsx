@@ -1,20 +1,12 @@
-import { useEffect, useState } from 'react';
 import { Col } from 'react-bootstrap';
 import RatingIcon from '../assets/icons/rating.webp'
 
 const Testimonial = (props: any) => {
-    const [viewWidth, setViewWidth] = useState(window.innerWidth);
-    const viewWidthMobileBreakpoint = 768;
-
-    useEffect(() => {
-        window.addEventListener("resize", () => setViewWidth(window.innerWidth));
-    }, []);
-
     return (
         <Col
             lg={4}
             md={6}
-            className={`${viewWidth >= viewWidthMobileBreakpoint && `p-4`} text-center text-white`}>
+            className={`${!props.isMobile && `p-4`} text-center text-white`}>
             <div
                 className='p-3 bg-dark'>
                 {
