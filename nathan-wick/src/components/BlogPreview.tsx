@@ -8,11 +8,11 @@ const BlogPreview = (props: any) => {
             md={6}
             className={`${!props.isMobile && `p-4`} text-center`}>
             <div
-                className='bg-dark'>
+                className='bg-dark rounded'>
                 {
                     props.image ?
                         <img
-                            className='w-100'
+                            className='w-100 rounded'
                             src={props.image}
                             alt={props.title}>
                         </img> : <></>

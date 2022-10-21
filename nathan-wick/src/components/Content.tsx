@@ -19,11 +19,11 @@ const Content = (props: any) => {
                                 key={index}
                                 lg={4}
                                 md={6}
-                                className='bg-dark'>
+                                className='bg-dark rounded'>
                                 {
                                     props.isMobile && props.background ?
                                         <img
-                                            className='w-100'
+                                            className='w-100 rounded'
                                             src={props.background}
                                             alt={props.title}>
                                         </img> : <></>

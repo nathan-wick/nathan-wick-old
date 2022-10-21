@@ -8,7 +8,7 @@ const Testimonial = (props: any) => {
             md={6}
             className={`${!props.isMobile && `p-4`} text-center`}>
             <div
-                className='p-3 bg-dark'>
+                className='p-3 bg-dark rounded'>
                 {
                     props.image ?
                         <img
