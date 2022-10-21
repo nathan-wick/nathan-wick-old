@@ -6,7 +6,7 @@ const Testimonial = (props: any) => {
         <Col
             lg={4}
             md={6}
-            className={`${!props.isMobile && `p-4`} text-center text-white`}>
+            className={`${!props.isMobile && `p-4`} text-center`}>
             <div
                 className='p-3 bg-dark'>
                 {

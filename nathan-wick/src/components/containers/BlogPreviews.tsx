@@ -4,7 +4,7 @@ import BlogPreview from '../BlogPreview';
 const BlogPreviews = (props: any) => {
     return (
         <div
-            className={`${!props.isMobile && `parallax`} bg-dark`}
+            className={`${!props.isMobile && `parallax`}`}
             style={{
                 backgroundImage: props.background && !props.isMobile ? `url(${props.background})` : `none`,
                 backgroundSize: 'cover'

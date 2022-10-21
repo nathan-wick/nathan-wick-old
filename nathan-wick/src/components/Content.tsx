@@ -6,7 +6,7 @@ const Content = (props: any) => {
 
     return (
         <div
-            className={`${!props.isMobile && `parallax p-4`} bg-dark text-white`}
+            className={`${!props.isMobile && `parallax p-4`}`}
             style={{
                 backgroundImage: props.background && !props.isMobile ? `url(${props.background})` : `none`,
                 backgroundSize: 'cover'}}>

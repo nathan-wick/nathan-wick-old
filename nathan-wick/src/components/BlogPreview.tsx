@@ -6,7 +6,7 @@ const BlogPreview = (props: any) => {
         <Col
             lg={4}
             md={6}
-            className={`${!props.isMobile && `p-4`} text-center text-white`}>
+            className={`${!props.isMobile && `p-4`} text-center`}>
             <div
                 className='bg-dark'>
                 {

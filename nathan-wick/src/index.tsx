@@ -10,7 +10,10 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <div
+      className='bg-dark text-light'>
+      <App />
+    </div>
   </React.StrictMode>
 );
 

@@ -3,7 +3,7 @@ import DefaultBackground from '../assets/images/endless-constellation.svg';
 const Header = (props: any) => {
     return (
         <div
-            className='py-5 text-center text-white bg-dark parallax'
+            className='py-5 text-center parallax'
             style={{
                 backgroundImage: props.background ? `url(${props.background})` : `url(${DefaultBackground})`}}>
             {
