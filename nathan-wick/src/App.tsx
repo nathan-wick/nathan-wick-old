@@ -6,6 +6,7 @@ import About from './components/views/About';
 import Blog from './components/views/Blog';
 import Footer from './components/Footer';
 import ThreeTraitsEveryGoodProgrammerHas from './components/views/blogs/ThreeTraitsEveryGoodProgrammerHas';
+import TimeComplexityExplainedSimple from './components/views/blogs/TimeComplexityExplainedSimple';
 
 function App() {
   const [viewWidth, setViewWidth] = useState(window.innerWidth);
@@ -40,6 +41,9 @@ function App() {
         <Route
           path='/blog/three-traits-every-good-programmer-has'
           element={<ThreeTraitsEveryGoodProgrammerHas isMobile={isMobile} />} />
+        <Route
+          path='/blog/time-complexity-explained-simple'
+          element={<TimeComplexityExplainedSimple isMobile={isMobile} />} />
       </Routes>
       <Footer />
     </Router>

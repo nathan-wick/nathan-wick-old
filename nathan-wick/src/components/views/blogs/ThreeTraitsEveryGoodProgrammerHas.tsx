@@ -13,7 +13,7 @@ const ThreeTraitsEveryGoodProgrammerHas = (props: any) => {
             </Helmet>
             <Header
                 title='Three Traits Every Good Programmer Has'
-                subtitle='By Nathan Wick 2022' />
+                subtitle='By Nathan Wick' />
             <Heading
                 text='Focus'
                 isMobile={props.isMobile} />
