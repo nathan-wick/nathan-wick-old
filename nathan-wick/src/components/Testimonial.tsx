@@ -28,8 +28,7 @@ const Testimonial = (props: any) => {
                 }
                 {
                     props.relation ?
-                        <p
-                            className='text-bright'>
+                        <p>
                             {props.relation}
                         </p> : <></>
                 }
