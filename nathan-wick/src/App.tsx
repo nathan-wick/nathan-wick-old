@@ -7,6 +7,7 @@ import Blog from './components/views/Blog';
 import Footer from './components/Footer';
 import ThreeTraitsEveryGoodProgrammerHas from './components/views/blogs/ThreeTraitsEveryGoodProgrammerHas';
 import TimeComplexityExplainedSimple from './components/views/blogs/TimeComplexityExplainedSimple';
+import EightEssentialTypescriptDataStructures from './components/views/blogs/EightEssentialTypescriptDataStructures';
 
 function App() {
   const [viewWidth, setViewWidth] = useState(window.innerWidth);
@@ -44,6 +45,9 @@ function App() {
         <Route
           path='/blog/time-complexity-explained-simple'
           element={<TimeComplexityExplainedSimple isMobile={isMobile} />} />
+        <Route
+          path='/blog/eight-essential-typescript-data-structures'
+          element={<EightEssentialTypescriptDataStructures isMobile={isMobile} />} />
       </Routes>
       <Footer />
     </Router>

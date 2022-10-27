@@ -4,7 +4,7 @@ import BlogPreviews from '../containers/BlogPreviews';
 import featuredBlogPreviewsBackground from '../../assets/images/laptop.webp';
 import threeTraitsEveryGoodProgrammerHasImage from '../../assets/images/three-traits-every-good-programmer-has.webp';
 import timeComplexityExplainedSimpleImage from '../../assets/images/time-complexity-explained-simple.webp';
-import eightEssentialJavascriptDataStructuresImage from '../../assets/images/eight-essential-javascript-data-structures.webp';
+import eightEssentialTypescriptDataStructuresImage from '../../assets/images/eight-essential-typescript-data-structures.webp';
 
 const blogPreviews = [
     {
@@ -20,10 +20,10 @@ const blogPreviews = [
         link: '/blog/time-complexity-explained-simple',
     },
     {
-        image: eightEssentialJavascriptDataStructuresImage,
-        title: '8 Essential JavaScript Data Structures',
+        image: eightEssentialTypescriptDataStructuresImage,
+        title: '8 Essential Typescript Data Structures',
         text: 'In this blog, I will discuss the essential data structures that every programmer must know...',
-        link: '/blog/eight-essential-javascript-data-structures',
+        link: '/blog/eight-essential-typescript-data-structures',
     },
 ]
 

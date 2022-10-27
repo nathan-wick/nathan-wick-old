@@ -3,3 +3,4 @@ https://nathanwick.com/?/about
 https://nathanwick.com/?/blog
 https://nathanwick.com/?/blog/three-traits-every-good-programmer-has
 https://nathanwick.com/?/blog/time-complexity-explained-simple
+https://nathanwick.com/?/blog/eight-essential-typescript-data-structures
