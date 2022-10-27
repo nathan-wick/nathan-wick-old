@@ -19,7 +19,6 @@ import AlexisConnerImage from '../../assets/images/alexis-conner.webp';
 import AlexanderSpurlockImage from '../../assets/images/alexander-spurlock.webp';
 import JacobMacleodImage from '../../assets/images/jacob-macleod.webp';
 import JeffSommerImage from '../../assets/images/jeff-sommer.webp';
-import { propTypes } from 'react-bootstrap/esm/Image';
 
 const WelcomeContent = () => {
     return (
