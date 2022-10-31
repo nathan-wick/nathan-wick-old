@@ -54,13 +54,13 @@ const EightEssentialTypescriptDataStructures = (props: any) => {
                 text='Trie'
                 isMobile={props.isMobile} />
             <Text
-                text=''
+                text='Trees are a collection of nodes. Tries store data step-by-step so data can easily be searched. Each node in a Trie has an alphabet and following the branch can form a complete word.'
                 isMobile={props.isMobile} />
             <Heading
                 text='Graph'
                 isMobile={props.isMobile} />
             <Text
-                text=''
+                text='Graphs are a collection of nodes. Each node stores a list of adjacent nodes. Graphs are special because they can be circular, disconnected, and/or undirected.'
                 isMobile={props.isMobile} />
         </>
     );
