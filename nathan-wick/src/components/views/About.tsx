@@ -179,7 +179,7 @@ const About = (props: any) => {
             <Header
                 icon={HeaderIcon}
                 title='Nathan Wick'
-                subtitle='Software Developer' />
+                subtitle='Full-Stack Software Developer' />
             <Content
                 isMobile={props.isMobile}
                 alignment='left'
@@ -204,7 +204,7 @@ const About = (props: any) => {
                 alignment='left'
                 background={UCITSCBackground}
                 title='University of Cincinnati Information Technology Solutions Center'
-                subtitle='Software Developer, August 2022 - Present'
+                subtitle='Full-Stack Software Developer, August 2022 - Present'
                 content={<UCITSCContent />} />
             <Content
                 isMobile={props.isMobile}

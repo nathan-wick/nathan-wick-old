@@ -22,7 +22,7 @@ const NavBar = () =>
                 <Nav className="me-auto">
                     <Nav.Link href="/about">About</Nav.Link>
                     <Nav.Link href="/blog">Blog</Nav.Link>
-                    <Nav.Link href="https://www.linkedin.com/in/nathanwick/details/projects/">Projects</Nav.Link>
+                    <Nav.Link href="/projects">Projects</Nav.Link>
                     <NavDropdown title="Socials" id="basic-nav-dropdown">
                         <NavDropdown.Item href="https://www.linkedin.com/in/nathanwick/">LinkedIn</NavDropdown.Item>
                         <NavDropdown.Item href="https://github.com/nathan-wick">GitHub</NavDropdown.Item>

@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import ThreeTraitsEveryGoodProgrammerHas from './components/views/blogs/ThreeTraitsEveryGoodProgrammerHas';
 import TimeComplexityExplainedSimple from './components/views/blogs/TimeComplexityExplainedSimple';
 import EightEssentialTypescriptDataStructures from './components/views/blogs/EightEssentialTypescriptDataStructures';
+import Projects from './components/views/Projects';
 
 function App() {
   const [viewWidth, setViewWidth] = useState(window.innerWidth);
@@ -48,6 +49,9 @@ function App() {
         <Route
           path='/blog/eight-essential-typescript-data-structures'
           element={<EightEssentialTypescriptDataStructures isMobile={isMobile} />} />
+        <Route
+          path='/projects'
+          element={<Projects isMobile={isMobile} />} />
       </Routes>
       <Footer />
     </Router>
