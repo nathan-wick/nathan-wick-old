@@ -1,0 +1,22 @@
+.App {
+  text-align: left;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center center;
+  position: relative;
+}
+
+.text-bright {
+  color: var(--text-bright);
+}
+
+* {
+  --text-bright: #0dcaf0;
+}
+
+/* View Outlines (used for debugging only)
+* {
+  outline: solid 1px red;
+}*/

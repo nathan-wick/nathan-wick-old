@@ -1,16 +1,14 @@
-### Hi there 👋
+# Nathan Wick
+### NathanWick.com
 
-<!--
-**nathan-wick/nathan-wick** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## How To Deploy
+1. Open the repository in Visual Studio Code and open a new terminal
+2. Change to the nathan-wick directory: cd nathan-wick
+3. Run deploy with node package manager: npm run deploy
 
-Here are some ideas to get you started:
+## All Images Must Be In WebP Format
+Images in WebP format often provide better compression than PNG or JPEG, which means faster downloads and less data consumption.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Free WebP Tools
+Converter: https://cloudconvert.com/webp-converter
+Cropper: https://www.resizepixel.com/
