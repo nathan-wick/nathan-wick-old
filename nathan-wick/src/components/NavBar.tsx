@@ -13,13 +13,19 @@ const NavBar = () => {
         const MaxHeight =
             document.documentElement.scrollHeight -
             document.documentElement.clientHeight;
-        const ScrollPercent = Math.round((Scrolled / MaxHeight) * 100);
+        const ScrollPercent = (Scrolled / MaxHeight) * 100;
         setScroll(ScrollPercent);
     };
 
     window.addEventListener("scroll", onScroll);
 
     return <>
+        <div
+            className="scroll-indicator sticky-top"
+            style={{
+                width: `${scroll}%`,
+                zIndex: 1021,
+            }}></div>
         <Navbar bg="dark" expand="lg" variant='dark' sticky='top'>
             <Container>
                 <Navbar.Brand href="/">
@@ -47,9 +53,6 @@ const NavBar = () => {
                 </Navbar.Collapse>
             </Container>
         </Navbar>
-        <div
-            className="scroll-indicator sticky-top"
-            style={{ width: `${scroll}%` }}></div>
     </>;
 };
 
