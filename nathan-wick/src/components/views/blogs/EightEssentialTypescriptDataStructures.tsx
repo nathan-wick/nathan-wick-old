@@ -44,7 +44,7 @@ rocks.push("Granite");
 // Output: Basalt, Granite
 console.log(rocks);
 
-const latestRock = stack.pop();
+const latestRock = rocks.pop();
 
 // Output: Granite
 console.log(latestRock);
