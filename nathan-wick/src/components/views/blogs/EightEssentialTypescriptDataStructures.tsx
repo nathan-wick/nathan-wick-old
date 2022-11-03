@@ -2,6 +2,8 @@ import { Helmet } from 'react-helmet';
 import Header from '../../Header';
 import Text from '../../Text';
 import Heading from '../../Heading';
+import StackImage from '../../../assets/images/stack.webp'
+import CodeBlock from '../../CodeBlock';
 
 const EightEssentialTypescriptDataStructures = (props: any) => {
     return (
@@ -17,8 +19,38 @@ const EightEssentialTypescriptDataStructures = (props: any) => {
             <Heading
                 text='Stack'
                 isMobile={props.isMobile} />
+            <div
+                className='text-center'>
+                <img
+                    className={`${props.isMobile ? `w-100` : `w-50`} rounded p-3`}
+                    src={StackImage}
+                    alt='Stack Data Structure by Nathan Wick'>
+                </img>
+            </div>
             <Text
                 text='Stacks are implemented on the Last In First Out (LIFO) basis. A Stack has 2 operations: Push and Pop. Push, adds an element to the top of the collection. Pop, removes an element from the top of the collection.'
+                isMobile={props.isMobile} />
+            <CodeBlock
+                text={`/*
+    Stack Data Structure Typescript Code Example
+    By Nathan Wick
+*/
+           
+const rocks = new Stack<string>();
+
+rocks.push("Basalt");
+rocks.push("Granite");
+
+// Output: Basalt, Granite
+console.log(rocks);
+
+const latestRock = stack.pop();
+
+// Output: Granite
+console.log(latestRock);
+
+// Output: Basalt
+console.log(rocks);`}
                 isMobile={props.isMobile} />
             <Heading
                 text='Queue'
