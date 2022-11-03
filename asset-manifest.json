@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.87bde518.css",
-    "main.js": "/static/js/main.5b940948.js",
+    "main.js": "/static/js/main.1eb9f2b5.js",
     "react-syntax-highlighter/refractor-core-import.js": "/static/js/react-syntax-highlighter/refractor-core-import.256d305a.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/static/js/react-syntax-highlighter_languages_refractor_abap.0db16a08.chunk.js",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/static/js/react-syntax-highlighter_languages_refractor_actionscript.14659811.chunk.js",
@@ -172,6 +172,7 @@
     "static/media/rating.webp": "/static/media/rating.91f2fc874d7b70152e94.webp",
     "static/media/experience.webp": "/static/media/experience.8f5950a09d2da2f13819.webp",
     "static/media/jeff-sommer.webp": "/static/media/jeff-sommer.31c5b710f5c672f4c1ac.webp",
+    "static/media/stack.webp": "/static/media/stack.a524db9beb7dbb0fa7e2.webp",
     "static/media/jacob-macleod.webp": "/static/media/jacob-macleod.005e2d2696d6e49320f4.webp",
     "static/media/abby-stroup.webp": "/static/media/abby-stroup.34177344c4d40cf0d5ed.webp",
     "static/media/alexis-conner.webp": "/static/media/alexis-conner.895850cb4fd515e84447.webp",
@@ -182,7 +183,7 @@
     "static/media/alexander-spurlock.webp": "/static/media/alexander-spurlock.067bbd51f18ff15c6180.webp",
     "index.html": "/index.html",
     "main.87bde518.css.map": "/static/css/main.87bde518.css.map",
-    "main.5b940948.js.map": "/static/js/main.5b940948.js.map",
+    "main.1eb9f2b5.js.map": "/static/js/main.1eb9f2b5.js.map",
     "refractor-core-import.256d305a.chunk.js.map": "/static/js/react-syntax-highlighter/refractor-core-import.256d305a.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.0db16a08.chunk.js.map": "/static/js/react-syntax-highlighter_languages_refractor_abap.0db16a08.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_actionscript.14659811.chunk.js.map": "/static/js/react-syntax-highlighter_languages_refractor_actionscript.14659811.chunk.js.map",
@@ -339,6 +340,6 @@
   },
   "entrypoints": [
     "static/css/main.87bde518.css",
-    "static/js/main.5b940948.js"
+    "static/js/main.1eb9f2b5.js"
   ]
 }
