@@ -4,6 +4,7 @@ import Text from '../../Text';
 import Heading from '../../Heading';
 import StackImage from '../../../assets/images/stack.webp'
 import CodeBlock from '../../CodeBlock';
+import QueueImage from '../../../assets/images/queue.webp'
 
 const EightEssentialTypescriptDataStructures = (props: any) => {
     return (
@@ -55,8 +56,38 @@ console.log(rocks);`}
             <Heading
                 text='Queue'
                 isMobile={props.isMobile} />
+            <div
+                className='text-center'>
+                <img
+                    className={`${props.isMobile ? `w-100` : `w-50`} rounded p-3`}
+                    src={QueueImage}
+                    alt='Queue Data Structure by Nathan Wick'>
+                </img>
+            </div>
             <Text
                 text='Queues are implemented on the First In First Out (FIFO) basis. A Queue has 2 operations: Enqueue and Dequeue. Enqueue, adds an element to the back of the collection. Dequeue, removes an element from the front of the collection.'
+                isMobile={props.isMobile} />
+            <CodeBlock
+                text={`/*
+    Queue Data Structure Typescript Code Example
+    By Nathan Wick
+*/
+           
+const peopleInLine = new Queue<string>();
+
+peopleInLine.enqueue("Nate Dogg");
+peopleInLine.enqueue("Big John");
+
+// Output: Nate Dogg, Big John
+console.log(peopleInLine);
+
+const nextPerson = peopleInLine.dequeue();
+
+// Output: Nate Dogg
+console.log(nextPerson);
+
+// Output: Big John
+console.log(peopleInLine);`}
                 isMobile={props.isMobile} />
             <Heading
                 text='Set'
