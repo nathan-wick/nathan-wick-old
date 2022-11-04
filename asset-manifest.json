@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.87bde518.css",
-    "main.js": "/static/js/main.3daa8bcb.js",
+    "main.js": "/static/js/main.c61075f6.js",
     "react-syntax-highlighter/refractor-core-import.js": "/static/js/react-syntax-highlighter/refractor-core-import.256d305a.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/static/js/react-syntax-highlighter_languages_refractor_abap.0db16a08.chunk.js",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/static/js/react-syntax-highlighter_languages_refractor_actionscript.14659811.chunk.js",
@@ -176,6 +176,7 @@
     "static/media/youtube.webp": "/static/media/youtube.249af5071d542e0dd161.webp",
     "static/media/linkedin.webp": "/static/media/linkedin.c4b1ef2a63cb76645140.webp",
     "static/media/jeff-sommer.webp": "/static/media/jeff-sommer.31c5b710f5c672f4c1ac.webp",
+    "static/media/queue.webp": "/static/media/queue.64c7648ee1ae5dfec361.webp",
     "static/media/stack.webp": "/static/media/stack.a524db9beb7dbb0fa7e2.webp",
     "static/media/jacob-macleod.webp": "/static/media/jacob-macleod.005e2d2696d6e49320f4.webp",
     "static/media/abby-stroup.webp": "/static/media/abby-stroup.34177344c4d40cf0d5ed.webp",
@@ -187,7 +188,7 @@
     "static/media/alexander-spurlock.webp": "/static/media/alexander-spurlock.067bbd51f18ff15c6180.webp",
     "index.html": "/index.html",
     "main.87bde518.css.map": "/static/css/main.87bde518.css.map",
-    "main.3daa8bcb.js.map": "/static/js/main.3daa8bcb.js.map",
+    "main.c61075f6.js.map": "/static/js/main.c61075f6.js.map",
     "refractor-core-import.256d305a.chunk.js.map": "/static/js/react-syntax-highlighter/refractor-core-import.256d305a.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.0db16a08.chunk.js.map": "/static/js/react-syntax-highlighter_languages_refractor_abap.0db16a08.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_actionscript.14659811.chunk.js.map": "/static/js/react-syntax-highlighter_languages_refractor_actionscript.14659811.chunk.js.map",
@@ -344,6 +345,6 @@
   },
   "entrypoints": [
     "static/css/main.87bde518.css",
-    "static/js/main.3daa8bcb.js"
+    "static/js/main.c61075f6.js"
   ]
 }
