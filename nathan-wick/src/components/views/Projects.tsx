@@ -12,11 +12,12 @@ const AndroidContent = () => {
                 MedPrompt is a native Android application that helps it's users keep track of medications and doctors appointments.
             </p>
             <p>
-                I was the Scrum Master for this project and worked with a team of 6 Software Developers.
+                For this project, I
             </p>
-            <p>
-                During this project, we learned how to use the SCRUM project management framework, Android Studio IDE, Kotlin programming language, and much more.
-            </p>
+            <ul>
+                <li>Was the Scrum Master and worked with an agile team of 6 Software Developers</li>
+                <li>Learned how to use the SCRUM project management framework, Android Studio IDE, Kotlin programming language, and much more</li>
+            </ul>
             <hr />
             <Button
                 variant='info'
@@ -35,14 +36,15 @@ const AppleContent = () => {
                 Found not Lost is a full-stack iOS application that helps it's users return and retrieve lost items.
             </p>
             <p>
-                I developed this application with the Xcode IDE, Swift programming language, and Firebase hosting services. 
+                For this project, I
             </p>
-            <p>
-                I also styled the user interface to maximize the look and feel on all iOS devices, 
-                <br />implemented sign-in with Google and Apple to authenticate users,
-                <br />designed a Firestore database to store items, messages, and user information,
-                <br />and created Google Cloud Functions to run database operations.
-            </p>
+            <ul>
+                <li>Developed an application with the Xcode IDE, Swift programming language, and Firebase hosting services</li>
+                <li>Styled the user interface to maximize the look and feel on all iOS devices</li>
+                <li>Implemented sign-in with Google and Apple to authenticate users</li>
+                <li>Designed a Firestore database to store items, messages, and user information</li>
+                <li>Created Google Cloud Functions to run database operations</li>
+            </ul>
             <hr />
             <Button
                 variant='info'
@@ -64,7 +66,7 @@ const Projects = (props: any) => {
             </Helmet>
             <Header
                 title='Projects'
-                subtitle='By Nathan Wick' />
+                subtitle='Software Developed by Nathan Wick' />
             <Content
                 isMobile={props.isMobile}
                 alignment='left'

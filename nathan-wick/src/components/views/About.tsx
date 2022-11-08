@@ -45,7 +45,7 @@ const UniversityOfCincinnatiContent = () => {
     return (
         <>
             <p>
-                According to the Niche report, the University of Cincinnati is the overall best college location in Ohio.
+                According to the Niche report, the University of Cincinnati is the overall best college location in Ohio. The University of Cincinnati also has a highly-ranked and accredited Information Technology program, dedicated to shaping the newest Information Technology professionals.
             </p>
             <hr />
             <p>
@@ -53,13 +53,13 @@ const UniversityOfCincinnatiContent = () => {
             </p>
             <ul>
                 <li>
+                    GPA: 4.0
+                </li>
+                <li>
                     Degree: Bachelors of Science
                 </li>
                 <li>
                     Major: Software Development
-                </li>
-                <li>
-                    GPA: 4.0
                 </li>
             </ul>
         </>

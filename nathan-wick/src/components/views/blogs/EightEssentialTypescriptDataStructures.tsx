@@ -72,7 +72,7 @@ console.log(rocks);`}
     Queue Data Structure Typescript Code Example
     By Nathan Wick
 */
-           
+
 const peopleInLine = new Queue<string>();
 
 peopleInLine.enqueue("Nate Dogg");
