@@ -120,50 +120,50 @@ const testimonials = [
     {
         image: AbbyStroupImage,
         name: 'Abby Stroup',
-        relation: 'Colleague at the University of Cincinnati',
+        relation: 'Colleague at the University of Cincinnati, 2022',
         text: '"Nathan and I worked in a group together for a Fundamentals of IT class at the University of Cincinnati. Nathan was an extremely valuable teammate during this project as he absolutely went above and beyond with the requirements for the assignment. He has great technical expertise in software development and works very well with others. Any team/company would be lucky to have him!"',
     },
     {
         image: BlakeSchriewerImage,
         name: 'Blake Schriewer',
-        relation: 'Colleague at the University of Cincinnati',
+        relation: 'Colleague at the University of Cincinnati, 2022',
         text: '"Nathan and I worked on a web application together and he went above and beyond to make it stand out. You can tell Nathan has a genuine passion for Software Development just by hearing the way he talks about his projects. Nathan is exactly the type of teammate you would want to work along side of. Nathan makes great suggestions, listens, and includes everyone. Working with Nathan was a pleasure."',
     },
     {
         image: DerrickAdkinsImage,
         name: 'Derrick Adkins',
-        relation: 'Colleague at the University of Cincinnati',
+        relation: 'Colleague at the University of Cincinnati, 2022',
         text: '"I worked with Nathan on a final project in a Web Development course at UC, in which he was an essential part of the group. He facilitated the development of the plan to execute and the delegation of tasks to team members as well as contributing a generous amount to the repository. Nathan is a strong programmer with good communication skills and I would be happy to collaborate with him again."',
     },
     {
         image: JeffSommerImage,
         name: 'Jeff Sommer',
-        relation: 'Professor at Sinclair Community College',
+        relation: 'Professor at Sinclair Community College, 2020',
         text: '"I was the professor for five classes with Nathan: Introduction to Problem Solving Computer Programming, Information System Analysis and Design, C++ Software Development, Database Management, and Network Security. I have known him since January, 2019. Nathans work was consistently of high quality. He attended every class session, completed assignments on time, actively participated in course discussions, and demonstrated professionalism in our correspondence. A great strength that Nathan has developed is problem-solving. When faced with problems completing assignments, he took the the time to generate possible solutions and tests before asking for help. Doing so well in the variety of classes that Nathan had with me tells me that he would be valuable in many information technology roles. He is not just a programmer, he is well rounded in many aspects of computing systems. Nathan has a positive attitude, demonstrates technological proficiency, and is a pleasure to work with."',
     },
     {
         image: JacobMacleodImage,
         name: 'Jacob Macleod',
-        relation: 'Colleague at the University of Cincinnati',
+        relation: 'Colleague at the University of Cincinnati, 2022',
         text: '"I got to know Nathan through developing the website project called "Games Galore" during the Spring Semester of 2022 at the University of Cincinnati. The website was built with the ASP.NET framework and connects to a database of video games for the data that is used on the website. He excelled at working on the frontend of the website, as well as the backend, to help create a website that looks great and functions well. He always attended meetings and responded quickly to messages concerning the project. He also has a great attitude for collaborating with others and discussing the development of the project in meetings. Some of the specific skills he used on the project includes the use of the programming languages C#, HTML, and CSS. From my experience with him, I can say that he would be a great person to collaborate with and someone who can contribute very much to a project."',
     },
     {
         image: AnthonyFoliviImage,
         name: 'Anthony Folivi',
-        relation: 'Colleague at the University of Cincinnati',
+        relation: 'Colleague at the University of Cincinnati, 2022',
         text: '"Nathan is a detailed software developer with vast knowledge of Software Development. He gives a lot of thought for user experience. He delivers on time with the utmost of professional outlook."',
     
     },
     {
         image: AlexisConnerImage,
         name: 'Alexis Conner',
-        relation: 'Colleague at the University of Cincinnati',
+        relation: 'Colleague at the University of Cincinnati, 2022',
         text: '"Nathan goes above and beyond to help his teammates no matter the situation. He always makes sure everyone feels included and is a great peer, as well as a leader!"',
     },
     {
         image: AlexanderSpurlockImage,
         name: 'Alexander Spurlock',
-        relation: 'Colleague at the University of Cincinnati',
+        relation: 'Colleague at the University of Cincinnati, 2022',
         text: '"It was very enjoyable to work with Nathan on our Android app project. He organized, and attended of course, all of the meetings. Additionally, he reached out to others if he saw them struggle by giving unique perspectives and just a helping hand. Nathan is a good teammate to have and I look forward to working with him some, if such a time arises."',
     },
 ];

@@ -90,10 +90,31 @@ console.log(nextPerson);
 console.log(peopleInLine);`}
                 isMobile={props.isMobile} />
             <Heading
-                text='Set'
+                text='Array'
                 isMobile={props.isMobile} />
             <Text
-                text='Sets store unique elements of the same type in a sorted order.'
+                text='Arrays store data of the same type. Data can be accessed anywhere within an array.'
+                isMobile={props.isMobile} />
+            <CodeBlock
+                text={`/*
+    Array Data Structure Typescript Code Example
+    By Nathan Wick
+*/
+
+const colors: string[] = [ 'Red', 'Blue', 'Yellow' ];
+
+// Output: 3
+console.log(colors.length);
+
+// Output: Red
+console.log(colors[0]);
+// Output: Yellow
+console.log(colors[2]);
+
+colors[1] = 'Green';
+
+// Output: Red, Green, Yellow
+console.log(colors)`}
                 isMobile={props.isMobile} />
             <Heading
                 text='Hash Table'

@@ -15,7 +15,7 @@ const AndroidContent = () => {
                 For this project, I
             </p>
             <ul>
-                <li>Was the Scrum Master and worked with an agile team of 6 Software Developers</li>
+                <li>Was the Scrum Master for an agile team of 6 Software Developers</li>
                 <li>Learned how to use the SCRUM project management framework, Android Studio IDE, Kotlin programming language, and much more</li>
             </ul>
             <hr />
