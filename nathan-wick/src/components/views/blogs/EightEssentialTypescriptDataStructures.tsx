@@ -95,8 +95,7 @@ console.log(numbers);`}
                 text='Arrays store data of a defined type with a fixed size. With an Array, data can be accessed anywhere.'
                 isMobile={props.isMobile} />
             <CodeBlock
-                text={`
-const numbers: number[] = [ 1, 2, 3 ];
+                text={`const numbers: number[] = [ 1, 2, 3 ];
 
 // Output: 1, 2, 3
 console.log(numbers);
