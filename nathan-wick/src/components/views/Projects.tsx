@@ -1,9 +1,8 @@
 import { Helmet } from 'react-helmet';
-import { Button } from 'react-bootstrap';
 import Content from '../Content';
 import Header from '../Header';
-import MedPromptBackground from '../../assets/images/medprompt.webp';
-import FoundNotLostBackground from '../../assets/images/found-not-lost.webp';
+import MedPromptBackground from '../../assets/images/backgrounds/medprompt.webp';
+import FoundNotLostBackground from '../../assets/images/backgrounds/found-not-lost.webp';
 
 const AndroidContent = () => {
     return (
@@ -11,19 +10,18 @@ const AndroidContent = () => {
             <p>
                 MedPrompt is a native Android application that helps it's users keep track of medications and doctors appointments.
             </p>
-            <p>
-                I was the Scrum Master for this project and worked with a team of 6 Software Developers.
-            </p>
-            <p>
-                During this project, we learned how to use the SCRUM project management framework, Android Studio IDE, Kotlin programming language, and much more.
-            </p>
             <hr />
-            <Button
-                variant='info'
-                href={`https://github.com/nathan-wick/medprompt`}
-                className='mb-3'>
-                View Code
-            </Button>
+            <p>
+                For this project, I
+            </p>
+            <ul>
+                <li>Lead an agile team of 6 Software Developers</li>
+                <li>Utilized the SCRUM project management framework to stay organized and productive</li>
+                <li>Programmed with the Android Studio IDE, Kotlin language, and Git version control system</li>
+                <li>Styled the user interface to maximize the look and feel on all Android devices</li>
+                <li>Implemented sign-in with Google and Email to authenticate users</li>
+                <li>Designed a database with Firebase Firestore to store, update, and retrieve user-generated information</li>
+            </ul>
         </>
     );
 };
@@ -34,22 +32,17 @@ const AppleContent = () => {
             <p>
                 Found not Lost is a full-stack iOS application that helps it's users return and retrieve lost items.
             </p>
-            <p>
-                I developed this application with the Xcode IDE, Swift programming language, and Firebase hosting services. 
-            </p>
-            <p>
-                I also styled the user interface to maximize the look and feel on all iOS devices, 
-                <br />implemented sign-in with Google and Apple to authenticate users,
-                <br />designed a Firestore database to store items, messages, and user information,
-                <br />and created Google Cloud Functions to run database operations.
-            </p>
             <hr />
-            <Button
-                variant='info'
-                href={`https://github.com/nathan-wick/found-not-lost`}
-                className='mb-3'>
-                View Code
-            </Button>
+            <p>
+                For this project, I
+            </p>
+            <ul>
+                <li>Programmed with the Xcode IDE, Swift language, and Git version control system</li>
+                <li>Styled the user interface to maximize the look and feel on all iOS devices</li>
+                <li>Implemented sign-in with Google and Apple to authenticate users</li>
+                <li>Designed a database with Firebase Firestore to store, update, and retrieve user-generated information</li>
+                <li>Created Google Cloud Functions to run database operations</li>
+            </ul>
         </>
     );
 };
@@ -64,7 +57,7 @@ const Projects = (props: any) => {
             </Helmet>
             <Header
                 title='Projects'
-                subtitle='By Nathan Wick' />
+                subtitle='Software Developed by Nathan Wick' />
             <Content
                 isMobile={props.isMobile}
                 alignment='left'

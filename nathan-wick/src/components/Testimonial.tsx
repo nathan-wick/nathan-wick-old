@@ -1,5 +1,5 @@
 import { Col } from 'react-bootstrap';
-import RatingIcon from '../assets/icons/rating.webp'
+import RatingIcon from '../assets/images/icons/rating.webp'
 
 const Testimonial = (props: any) => {
     return (

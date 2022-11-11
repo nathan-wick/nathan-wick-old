@@ -2,6 +2,12 @@
   text-align: left;
 }
 
+.scroll-indicator {
+  background: var(--bs-cyan);
+  height: 3px;
+  width: 0%;
+}
+
 .parallax {
   background-attachment: fixed;
   background-position: center center;
@@ -9,11 +15,7 @@
 }
 
 .text-bright {
-  color: var(--text-bright);
-}
-
-* {
-  --text-bright: #0dcaf0;
+  color: var(--bs-cyan);
 }
 
 /* View Outlines (used for debugging only)

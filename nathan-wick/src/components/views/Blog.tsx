@@ -1,10 +1,10 @@
 import { Helmet } from 'react-helmet';
 import Header from '../Header';
 import BlogPreviews from '../containers/BlogPreviews';
-import featuredBlogPreviewsBackground from '../../assets/images/laptop.webp';
-import threeTraitsEveryGoodProgrammerHasImage from '../../assets/images/three-traits-every-good-programmer-has.webp';
-import timeComplexityExplainedSimpleImage from '../../assets/images/time-complexity-explained-simple.webp';
-import eightEssentialTypescriptDataStructuresImage from '../../assets/images/eight-essential-typescript-data-structures.webp';
+import featuredBlogPreviewsBackground from '../../assets/images/backgrounds/laptop.webp';
+import threeTraitsEveryGoodProgrammerHasImage from '../../assets/images/backgrounds/three-traits-every-good-programmer-has.webp';
+import timeComplexityExplainedSimpleImage from '../../assets/images/backgrounds/time-complexity-explained-simple.webp';
+import eightEssentialTypescriptDataStructuresImage from '../../assets/images/backgrounds/eight-essential-typescript-data-structures.webp';
 
 const blogPreviews = [
     {
@@ -39,6 +39,7 @@ const Blog = (props: any) => {
                 title='Blog'
                 subtitle='Learn Software Development with Nathan Wick' />
             <BlogPreviews
+                isMobile={props.isMobile}
                 background={featuredBlogPreviewsBackground}
                 blogPreviews={blogPreviews} />
         </>

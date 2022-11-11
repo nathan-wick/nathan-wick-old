@@ -38,7 +38,7 @@ const Content = (props: any) => {
                                 {
                                     props.subtitle ?
                                         <p
-                                            className='m-3 text-bright'>
+                                            className='m-3'>
                                             {props.subtitle}
                                         </p> : <></>
                                 }
