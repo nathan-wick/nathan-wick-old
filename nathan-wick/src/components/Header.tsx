@@ -1,4 +1,4 @@
-import DefaultBackground from '../assets/images/endless-constellation.svg';
+import DefaultBackground from '../assets/images/backgrounds/endless-constellation.svg';
 
 const Header = (props: any) => {
     return (

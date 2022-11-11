@@ -2,8 +2,8 @@ import { Helmet } from 'react-helmet';
 import { Button } from 'react-bootstrap';
 import Content from '../Content';
 import Header from '../Header';
-import MedPromptBackground from '../../assets/images/medprompt.webp';
-import FoundNotLostBackground from '../../assets/images/found-not-lost.webp';
+import MedPromptBackground from '../../assets/images/backgrounds/medprompt.webp';
+import FoundNotLostBackground from '../../assets/images/backgrounds/found-not-lost.webp';
 
 const AndroidContent = () => {
     return (

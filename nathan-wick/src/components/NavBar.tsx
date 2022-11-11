@@ -3,11 +3,11 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import BrandIcon from '../assets/images/profile-picture.webp';
-import LinkedInIcon from '../assets/icons/linkedin.webp';
-import GitHubIcon from '../assets/icons/github.webp';
-import YoutubeIcon from '../assets/icons/youtube.webp';
-import StackOverflowIcon from '../assets/icons/stack-overflow.webp';
+import BrandIcon from '../assets/images/portraits/profile-picture.webp';
+import LinkedInIcon from '../assets/images/icons/linkedin.webp';
+import GitHubIcon from '../assets/images/icons/github.webp';
+import YoutubeIcon from '../assets/images/icons/youtube.webp';
+import StackOverflowIcon from '../assets/images/icons/stack-overflow.webp';
 
 const NavBar = () => {
     const [ scroll, setScroll ] = useState(0);

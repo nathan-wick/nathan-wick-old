@@ -3,14 +3,14 @@ import Header from '../../Header';
 import Text from '../../Text';
 import Heading from '../../Heading';
 import CodeBlock from '../../CodeBlock';
-import StackImage from '../../../assets/images/stack.webp'
-import QueueImage from '../../../assets/images/queue.webp';
-import ArrayImage from '../../../assets/images/array.webp';
-import HashTableImage from '../../../assets/images/hash-table.webp';
-import LinkedListImage from '../../../assets/images/linked-list.webp';
-import TreeImage from '../../../assets/images/tree.webp';
-import TrieImage from '../../../assets/images/trie.webp';
-import GraphImage from '../../../assets/images/graph.webp';
+import StackImage from '../../../assets/images/data-structures/stack.webp'
+import QueueImage from '../../../assets/images/data-structures/queue.webp';
+import ArrayImage from '../../../assets/images/data-structures/array.webp';
+import HashTableImage from '../../../assets/images/data-structures/hash-table.webp';
+import LinkedListImage from '../../../assets/images/data-structures/linked-list.webp';
+import TreeImage from '../../../assets/images/data-structures/tree.webp';
+import TrieImage from '../../../assets/images/data-structures/trie.webp';
+import GraphImage from '../../../assets/images/data-structures/graph.webp';
 
 const EightEssentialTypescriptDataStructures = (props: any) => {
     return (
