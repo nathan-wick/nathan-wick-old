@@ -1,5 +1,4 @@
 import { Helmet } from 'react-helmet';
-import { Button } from 'react-bootstrap';
 import Content from '../Content';
 import Header from '../Header';
 import MedPromptBackground from '../../assets/images/backgrounds/medprompt.webp';
@@ -11,20 +10,18 @@ const AndroidContent = () => {
             <p>
                 MedPrompt is a native Android application that helps it's users keep track of medications and doctors appointments.
             </p>
+            <hr />
             <p>
                 For this project, I
             </p>
             <ul>
-                <li>Was the Scrum Master for an agile team of 6 Software Developers</li>
-                <li>Learned how to use the SCRUM project management framework, Android Studio IDE, Kotlin programming language, and much more</li>
+                <li>Lead an agile team of 6 Software Developers</li>
+                <li>Utilized the SCRUM project management framework to stay organized and productive</li>
+                <li>Programmed with the Android Studio IDE, Kotlin language, and Git version control system</li>
+                <li>Styled the user interface to maximize the look and feel on all Android devices</li>
+                <li>Implemented sign-in with Google and Email to authenticate users</li>
+                <li>Designed a database with Firebase Firestore to store, update, and retrieve user-generated information</li>
             </ul>
-            <hr />
-            <Button
-                variant='info'
-                href={`https://github.com/nathan-wick/medprompt`}
-                className='mb-3'>
-                View Code
-            </Button>
         </>
     );
 };
@@ -35,23 +32,17 @@ const AppleContent = () => {
             <p>
                 Found not Lost is a full-stack iOS application that helps it's users return and retrieve lost items.
             </p>
+            <hr />
             <p>
                 For this project, I
             </p>
             <ul>
-                <li>Developed an application with the Xcode IDE, Swift programming language, and Firebase hosting services</li>
+                <li>Programmed with the Xcode IDE, Swift language, and Git version control system</li>
                 <li>Styled the user interface to maximize the look and feel on all iOS devices</li>
                 <li>Implemented sign-in with Google and Apple to authenticate users</li>
-                <li>Designed a Firestore database to store items, messages, and user information</li>
+                <li>Designed a database with Firebase Firestore to store, update, and retrieve user-generated information</li>
                 <li>Created Google Cloud Functions to run database operations</li>
             </ul>
-            <hr />
-            <Button
-                variant='info'
-                href={`https://github.com/nathan-wick/found-not-lost`}
-                className='mb-3'>
-                View Code
-            </Button>
         </>
     );
 };
