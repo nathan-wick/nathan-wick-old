@@ -39,6 +39,7 @@ const Blog = (props: any) => {
                 title='Blog'
                 subtitle='Learn Software Development with Nathan Wick' />
             <BlogPreviews
+                isMobile={props.isMobile}
                 background={featuredBlogPreviewsBackground}
                 blogPreviews={blogPreviews} />
         </>
