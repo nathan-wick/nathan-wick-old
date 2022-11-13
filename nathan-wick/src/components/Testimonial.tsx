@@ -1,12 +1,16 @@
+import { useContext } from 'react';
 import { Col } from 'react-bootstrap';
 import RatingIcon from '../assets/images/icons/rating.webp'
+import MobileContext from '../contexts/MobileContext';
 
 const Testimonial = (props: any) => {
+    const isMobile = useContext(MobileContext);
+
     return (
         <Col
             lg={4}
             md={6}
-            className={`${!props.isMobile && `p-4`} text-center`}>
+            className={`${!isMobile && `p-4`} text-center`}>
             <div
                 className='p-3 bg-dark rounded'>
                 {

@@ -16,14 +16,11 @@ const TimeComplexityExplainedSimple = (props: any) => {
                 title='Time Complexity Explained Simple'
                 subtitle='By Nathan Wick' />
             <Text
-                text='Time complexity is the number of times a statement is executed. The lesser the Time Complexity, the faster the execution.'
-                isMobile={props.isMobile} />
+                text='Time complexity is the number of times a statement is executed. The lesser the Time Complexity, the faster the execution.' />
             <Heading
-                text='O(1) - Constant Time Complexity'
-                isMobile={props.isMobile} />
+                text='O(1) - Constant Time Complexity' />
             <Text
-                text='When time complexity is constant, the size of the input does not matter. This is the fastest time complexity.'
-                isMobile={props.isMobile} />
+                text='When time complexity is constant, the size of the input does not matter. This is the fastest time complexity.' />
             <CodeBlock
                 text={`/*
     Constant Time Complexity Typescript Code Example
@@ -33,14 +30,11 @@ const TimeComplexityExplainedSimple = (props: any) => {
 const userId = 24;
 
 // Log userId in the console
-console.log("The user's id is " + userId);`}
-                isMobile={props.isMobile} />
+console.log("The user's id is " + userId);`} />
             <Heading
-                text='O(n) - Linear Time Complexity'
-                isMobile={props.isMobile} />
+                text='O(n) - Linear Time Complexity' />
             <Text
-                text='When time complexity is linear, the number of statement executions is proportional to the input (n) size.'
-                isMobile={props.isMobile} />
+                text='When time complexity is linear, the number of statement executions is proportional to the input (n) size.' />
             <CodeBlock
                 text={`/*
     Linear Time Complexity Typescript Code Example
@@ -52,14 +46,11 @@ const arrayOfNumbers = [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ];
 // Loop through arrayOfNumbers (n)
 arrayOfNumbers.forEach(currentNumber => {
     // Do something with currentNumber
-});`}
-                isMobile={props.isMobile} />
+});`} />
             <Heading
-                text='O(log n) - Logarithmic Time Complexity'
-                isMobile={props.isMobile} />
+                text='O(log n) - Logarithmic Time Complexity' />
             <Text
-                text='When time complexity is logarithmic, the number of statement executions is proportional to the logarithm of the input (n) size. Logarithmic time complexity happens when the algorithm does not need to go through all the input. This is accomplished by dividing the main problem into sub-problems, solving the sub-problems, and combining the sub-problem answers to the main problem. This is the second-fastest time complexity and is often used when constant time complexity is not achievable.'
-                isMobile={props.isMobile} />
+                text='When time complexity is logarithmic, the number of statement executions is proportional to the logarithm of the input (n) size. Logarithmic time complexity happens when the algorithm does not need to go through all the input. This is accomplished by dividing the main problem into sub-problems, solving the sub-problems, and combining the sub-problem answers to the main problem. This is the second-fastest time complexity and is often used when constant time complexity is not achievable.' />
             <CodeBlock
                 text={`/*
     Logarithmic Time Complexity Typescript Code Example
@@ -84,14 +75,11 @@ while (start <= end) {
         // userIdToFind is somewhere between middle and end
         start = middle + 1;
     }
-}`}
-                isMobile={props.isMobile} />
+}`} />
             <Heading
-                text='O(n^2) - Quadratic Time Complexity'
-                isMobile={props.isMobile} />
+                text='O(n^2) - Quadratic Time Complexity' />
             <Text
-                text='When time complexity is quadratic, the number of statement executions is proportional to the square of the input (n) size. Algorithms with a quadratic time complexity don’t scale well and can typically be avoided with a better algorithm.'
-                isMobile={props.isMobile} />
+                text='When time complexity is quadratic, the number of statement executions is proportional to the square of the input (n) size. Algorithms with a quadratic time complexity don’t scale well and can typically be avoided with a better algorithm.' />
             <CodeBlock
                 text={`/*
     Quadratic Time Complexity Typescript Code Example
@@ -111,8 +99,7 @@ for (int i = 0; i < nateFavCars.Length; i++) {
             // nateFavCars[i] and johnFavCars[j] are not the same
         }
     }
-}`}
-                isMobile={props.isMobile} />
+}`} />
         </>
     );
 };

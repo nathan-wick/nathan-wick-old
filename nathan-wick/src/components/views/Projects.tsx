@@ -59,14 +59,12 @@ const Projects = (props: any) => {
                 title='Projects'
                 subtitle='Software Developed by Nathan Wick' />
             <Content
-                isMobile={props.isMobile}
                 alignment='left'
                 background={MedPromptBackground}
                 title='MedPrompt'
                 subtitle='June 2022 - August 2022'
                 content={<AndroidContent />} />
             <Content
-                isMobile={props.isMobile}
                 alignment='right'
                 background={FoundNotLostBackground}
                 title='Found not Lost'

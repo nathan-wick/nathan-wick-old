@@ -1,7 +1,12 @@
+import { useContext } from "react";
+import MobileContext from "../contexts/MobileContext";
+
 const Text = (props: any) => {
+    const isMobile = useContext(MobileContext);
+
     return (
         <div
-            className={`${props.isMobile ? `w-100` : `w-50`} m-auto p-3`}>
+            className={`${isMobile ? `w-100` : `w-50`} m-auto p-3`}>
             <p>
                 {props.text}
             </p>

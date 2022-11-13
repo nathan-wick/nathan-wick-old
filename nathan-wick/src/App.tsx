@@ -9,8 +9,9 @@ import ThreeTraitsEveryGoodProgrammerHas from './components/views/blogs/ThreeTra
 import TimeComplexityExplainedSimple from './components/views/blogs/TimeComplexityExplainedSimple';
 import EightEssentialTypescriptDataStructures from './components/views/blogs/EightEssentialTypescriptDataStructures';
 import Projects from './components/views/Projects';
+import MobileContext from './contexts/MobileContext';
 
-function App() {
+const App = () => {
   const [viewWidth, setViewWidth] = useState(window.innerWidth);
   const [isMobile, setIsMobile] = useState(Boolean);
   const viewWidthMobileBreakpoint = 768;
@@ -25,36 +26,38 @@ function App() {
     } else {
       setIsMobile(true);
     }
-  }, [ viewWidth ])
+  }, [ viewWidth ]);
 
   return (
-    <Router>
-      <NavBar />
-      <Routes>
-        <Route
-          path='/'
-          element={<About isMobile={isMobile} />} />
-        <Route
-          path='/about'
-          element={<About isMobile={isMobile} />} />
-        <Route
-          path='/blog'
-          element={<Blog isMobile={isMobile} />} />
-        <Route
-          path='/blog/three-traits-every-good-programmer-has'
-          element={<ThreeTraitsEveryGoodProgrammerHas isMobile={isMobile} />} />
-        <Route
-          path='/blog/time-complexity-explained-simple'
-          element={<TimeComplexityExplainedSimple isMobile={isMobile} />} />
-        <Route
-          path='/blog/eight-essential-typescript-data-structures'
-          element={<EightEssentialTypescriptDataStructures isMobile={isMobile} />} />
-        <Route
-          path='/projects'
-          element={<Projects isMobile={isMobile} />} />
-      </Routes>
-      <Footer />
-    </Router>
+    <MobileContext.Provider value={isMobile}>
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route
+            path='/'
+            element={<About />} />
+          <Route
+            path='/about'
+            element={<About />} />
+          <Route
+            path='/blog'
+            element={<Blog />} />
+          <Route
+            path='/blog/three-traits-every-good-programmer-has'
+            element={<ThreeTraitsEveryGoodProgrammerHas />} />
+          <Route
+            path='/blog/time-complexity-explained-simple'
+            element={<TimeComplexityExplainedSimple />} />
+          <Route
+            path='/blog/eight-essential-typescript-data-structures'
+            element={<EightEssentialTypescriptDataStructures />} />
+          <Route
+            path='/projects'
+            element={<Projects />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </MobileContext.Provider>
   );
 }
 

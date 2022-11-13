@@ -181,7 +181,6 @@ const About = (props: any) => {
                 title='Nathan Wick'
                 subtitle='Full-Stack Software Developer' />
             <Content
-                isMobile={props.isMobile}
                 alignment='left'
                 background={WelcomeBackground}
                 title='Welcome'
@@ -190,7 +189,6 @@ const About = (props: any) => {
                 icon={EducationIcon}
                 title='Education' />
             <Content
-                isMobile={props.isMobile}
                 alignment='right'
                 background={UniversityOfCincinnatiBackground}
                 title='University of Cincinnati'
@@ -200,14 +198,12 @@ const About = (props: any) => {
                 icon={ExperienceIcon}
                 title='Experience' />
             <Content
-                isMobile={props.isMobile}
                 alignment='left'
                 background={UCITSCBackground}
                 title='University of Cincinnati Information Technology Solutions Center'
                 subtitle='Full-Stack Software Developer, August 2022 - Present'
                 content={<UCITSCContent />} />
             <Content
-                isMobile={props.isMobile}
                 alignment='right'
                 background={MarketingSavageBackground}
                 title='Marketing Savage'
@@ -217,7 +213,6 @@ const About = (props: any) => {
                 icon={TestimonialsIcon}
                 title='Testimonials' />
             <Testimonials
-                isMobile={props.isMobile}
                 background={TestimonialsBackground}
                 testimonials={testimonials} />
         </>

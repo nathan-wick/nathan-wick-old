@@ -1,14 +1,16 @@
+import { useContext } from "react";
 import { Col, Row } from "react-bootstrap";
+import MobileContext from "../contexts/MobileContext";
 
 const Content = (props: any) => {
-
+    const isMobile = useContext(MobileContext);
     const alignments = ['left', 'center', 'right'];
 
     return (
         <div
-            className={`${!props.isMobile && `parallax p-4`}`}
+            className={`${!isMobile && `parallax p-4`}`}
             style={{
-                backgroundImage: props.background && !props.isMobile ? `url(${props.background})` : `none`,
+                backgroundImage: props.background && !isMobile ? `url(${props.background})` : `none`,
                 backgroundSize: 'cover'}}>
             <Row
                 className="m-0">
@@ -21,7 +23,7 @@ const Content = (props: any) => {
                                 md={6}
                                 className='bg-dark rounded'>
                                 {
-                                    props.isMobile && props.background ?
+                                    isMobile && props.background ?
                                         <img
                                             className='w-100 rounded'
                                             src={props.background}

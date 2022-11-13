@@ -1,12 +1,16 @@
+import { useContext } from 'react';
 import { Row } from 'react-bootstrap';
+import MobileContext from '../../contexts/MobileContext';
 import Testimonial from '../Testimonial';
 
 const Testimonials = (props: any) => {
+    const isMobile = useContext(MobileContext);
+
     return (
         <div
-            className={`${!props.isMobile && `parallax`}`}
+            className={`${!isMobile && `parallax`}`}
             style={{
-                backgroundImage: props.background && !props.isMobile ? `url(${props.background})` : `none`,
+                backgroundImage: props.background && !isMobile ? `url(${props.background})` : `none`,
                 backgroundSize: 'cover'
             }}>
             <Row

@@ -1,12 +1,15 @@
+import { useContext } from 'react';
 import { Button, Col } from 'react-bootstrap';
+import MobileContext from '../contexts/MobileContext';
 
 const BlogPreview = (props: any) => {
+    const isMobile = useContext(MobileContext);
 
     return (
         <Col
             lg={4}
             md={6}
-            className={`${!props.isMobile && `p-4`} text-center`}>
+            className={`${!isMobile && `p-4`} text-center`}>
             <div
                 className='bg-dark rounded'>
                 {

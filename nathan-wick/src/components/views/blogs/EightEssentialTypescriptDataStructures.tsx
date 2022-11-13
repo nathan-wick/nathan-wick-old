@@ -11,8 +11,12 @@ import LinkedListImage from '../../../assets/images/data-structures/linked-list.
 import TreeImage from '../../../assets/images/data-structures/tree.webp';
 import TrieImage from '../../../assets/images/data-structures/trie.webp';
 import GraphImage from '../../../assets/images/data-structures/graph.webp';
+import { useContext } from 'react';
+import MobileContext from '../../../contexts/MobileContext';
 
 const EightEssentialTypescriptDataStructures = (props: any) => {
+    const isMobile = useContext(MobileContext);
+
     return (
         <>
             <Helmet>‍
@@ -24,15 +28,13 @@ const EightEssentialTypescriptDataStructures = (props: any) => {
                 title='8 Essential Typescript Data Structures'
                 subtitle='By Nathan Wick' />
             <Heading
-                text='Stack'
-                isMobile={props.isMobile} />
+                text='Stack' />
             <Text
-                text='Stacks are implemented on the Last In First Out (LIFO) basis. A Stack has 2 operations: Push and Pop. Push, adds an element to the top of the collection. Pop, removes an element from the top of the collection.'
-                isMobile={props.isMobile} />
+                text='Stacks are implemented on the Last In First Out (LIFO) basis. A Stack has 2 operations: Push and Pop. Push, adds an element to the top of the collection. Pop, removes an element from the top of the collection.' />
             <div
                 className='text-center'>
                 <img
-                    className={`${props.isMobile ? `w-100` : `w-50`} rounded p-3`}
+                    className={`${isMobile ? `w-100` : `w-50`} rounded p-3`}
                     src={StackImage}
                     alt='Stack Data Structure by Nathan Wick'>
                 </img>
@@ -52,18 +54,15 @@ const topNumber = numbers.pop();
 console.log(topNumber);
 
 // Output: 1
-console.log(numbers);`}
-                isMobile={props.isMobile} />
+console.log(numbers);`} />
             <Heading
-                text='Queue'
-                isMobile={props.isMobile} />
+                text='Queue' />
             <Text
-                text='Queues are implemented on the First In First Out (FIFO) basis. A Queue has 2 operations: Enqueue and Dequeue. Enqueue, adds an element to the back of the collection. Dequeue, removes an element from the front of the collection.'
-                isMobile={props.isMobile} />
+                text='Queues are implemented on the First In First Out (FIFO) basis. A Queue has 2 operations: Enqueue and Dequeue. Enqueue, adds an element to the back of the collection. Dequeue, removes an element from the front of the collection.' />
             <div
                 className='text-center'>
                 <img
-                    className={`${props.isMobile ? `w-100` : `w-50`} rounded p-3`}
+                    className={`${isMobile ? `w-100` : `w-50`} rounded p-3`}
                     src={QueueImage}
                     alt='Queue Data Structure by Nathan Wick'>
                 </img>
@@ -83,18 +82,15 @@ const frontNumber = numbers.dequeue();
 console.log(frontNumber);
 
 // Output: 2
-console.log(numbers);`}
-                isMobile={props.isMobile} />
+console.log(numbers);`} />
             <Heading
-                text='Array'
-                isMobile={props.isMobile} />
+                text='Array' />
             <Text
-                text='Arrays store data of a defined type with a fixed size. With an Array, data can be accessed anywhere.'
-                isMobile={props.isMobile} />
+                text='Arrays store data of a defined type with a fixed size. With an Array, data can be accessed anywhere.' />
             <div
                 className='text-center'>
                 <img
-                    className={`${props.isMobile ? `w-100` : `w-50`} rounded p-3`}
+                    className={`${isMobile ? `w-100` : `w-50`} rounded p-3`}
                     src={ArrayImage}
                     alt='Array Data Structure by Nathan Wick'>
                 </img>
@@ -113,18 +109,15 @@ console.log(numbers[2]);
 numbers[1] = 4;
 
 // Output: 1, 4, 3
-console.log(numbers)`}
-                isMobile={props.isMobile} />
+console.log(numbers)`} />
             <Heading
-                text='Hash Table'
-                isMobile={props.isMobile} />
+                text='Hash Table' />
             <Text
-                text='Hash Tables store a key and value pair. Hash Tables are helpful when there is a need to search for a value. This is because values can be found with a key instead of a loop.'
-                isMobile={props.isMobile} />
+                text='Hash Tables store a key and value pair. Hash Tables are helpful when there is a need to search for a value. This is because values can be found with a key instead of a loop.' />
             <div
                 className='text-center'>
                 <img
-                    className={`${props.isMobile ? `w-100` : `w-50`} rounded p-3`}
+                    className={`${isMobile ? `w-100` : `w-50`} rounded p-3`}
                     src={HashTableImage}
                     alt='Hash Table Data Structure by Nathan Wick'>
                 </img>
@@ -137,18 +130,15 @@ names.insert(6283);
 names.insert(1413);
 
 // Output: Nate
-console.log(names.search(6283));`}
-                isMobile={props.isMobile} />
+console.log(names.search(6283));`} />
             <Heading
-                text='Linked List'
-                isMobile={props.isMobile} />
+                text='Linked List' />
             <Text
-                text='Linked Lists are a collection of nodes. Each node consists of 2 fields, information and the address of the next node.'
-                isMobile={props.isMobile} />
+                text='Linked Lists are a collection of nodes. Each node consists of 2 fields, information and the address of the next node.' />
             <div
                 className='text-center'>
                 <img
-                    className={`${props.isMobile ? `w-100` : `w-50`} rounded p-3`}
+                    className={`${isMobile ? `w-100` : `w-50`} rounded p-3`}
                     src={LinkedListImage}
                     alt='Linked List Data Structure by Nathan Wick'>
                 </img>
@@ -162,18 +152,15 @@ car.insert('Z3');
 car.insert('2.3');
 
 // Output: BMW, Z3
-console.log(car.search('BMW'));`}
-                isMobile={props.isMobile} />
+console.log(car.search('BMW'));`} />
             <Heading
-                text='Tree'
-                isMobile={props.isMobile} />
+                text='Tree' />
             <Text
-                text='Trees are a collection of nodes. Each node consists of a value and references to other nodes. Unlike a Linked List node, a Tree node can reference multiple other nodes.'
-                isMobile={props.isMobile} />
+                text='Trees are a collection of nodes. Each node consists of a value and references to other nodes. Unlike a Linked List node, a Tree node can reference multiple other nodes.' />
             <div
                 className='text-center'>
                 <img
-                    className={`${props.isMobile ? `w-100` : `w-50`} rounded p-3`}
+                    className={`${isMobile ? `w-100` : `w-50`} rounded p-3`}
                     src={TreeImage}
                     alt='Tree Data Structure by Nathan Wick'>
                 </img>
@@ -184,18 +171,15 @@ console.log(car.search('BMW'));`}
 family.insert([ 'Larry', 'Chad', 'Jeremy', 'Nate', 'John', 'Maggie', 'Dalton' ]);
 
 // Output: Larry, Chad, Nate, John, Jeremy, Maggie, Dalton
-console.log(family.inOrder());`}
-                isMobile={props.isMobile} />
+console.log(family.inOrder());`} />
             <Heading
-                text='Trie'
-                isMobile={props.isMobile} />
+                text='Trie' />
             <Text
-                text='Trees are a collection of nodes. Tries store data step-by-step so data can easily be searched. Each node in a Trie has an alphabet and following the branch can form a complete word.'
-                isMobile={props.isMobile} />
+                text='Trees are a collection of nodes. Tries store data step-by-step so data can easily be searched. Each node in a Trie has an alphabet and following the branch can form a complete word.' />
             <div
                 className='text-center'>
                 <img
-                    className={`${props.isMobile ? `w-100` : `w-50`} rounded p-3`}
+                    className={`${isMobile ? `w-100` : `w-50`} rounded p-3`}
                     src={TrieImage}
                     alt='Trie Data Structure by Nathan Wick'>
                 </img>
@@ -210,18 +194,15 @@ wordMap.insert('cap');
 wordMap.insert('cat');
 
 // Output: True
-console.log(wordMap.search('cat'));`}
-                isMobile={props.isMobile} />
+console.log(wordMap.search('cat'));`} />
             <Heading
-                text='Graph'
-                isMobile={props.isMobile} />
+                text='Graph' />
             <Text
-                text='Graphs are a collection of nodes. Each node stores a list of adjacent nodes. Graphs are special because they can be circular, disconnected, and/or undirected.'
-                isMobile={props.isMobile} />
+                text='Graphs are a collection of nodes. Each node stores a list of adjacent nodes. Graphs are special because they can be circular, disconnected, and/or undirected.' />
             <div
                 className='text-center'>
                 <img
-                    className={`${props.isMobile ? `w-100` : `w-50`} rounded p-3`}
+                    className={`${isMobile ? `w-100` : `w-50`} rounded p-3`}
                     src={GraphImage}
                     alt='Graph Data Structure by Nathan Wick'>
                 </img>
@@ -247,8 +228,7 @@ streets.addEdge('Maple', '2nd');
 streets.addEdge('2nd', 'Main');
 
 // Output: 1st, Main, 3rd, Ash
-console.log(streets.search({ start: '1st', finish: 'Ash' }));`}
-                isMobile={props.isMobile} />
+console.log(streets.search({ start: '1st', finish: 'Ash' }));`} />
         </>
     );
 };
